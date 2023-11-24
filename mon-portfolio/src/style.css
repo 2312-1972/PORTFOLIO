@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'Raleway', sans-serif;
+    color: #333333
+    
+  }
+  
+  a {
+    color: #3498db;
+    
+  }
