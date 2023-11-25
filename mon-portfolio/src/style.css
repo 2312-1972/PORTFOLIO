@@ -1,16 +1,82 @@
-body {
+
+.body {
     font-family: 'Roboto', 'Open Sans', sans-serif;
     background-color: #f4f4f4;
-    color: #333333;
+    background-color: #0a0a0a; 
+    margin: 0;
+    padding: 0;
+    color: #61dafb; 
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', 'Raleway', sans-serif;
-    color: #333333
-    
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    color: #61dafb;
   }
   
   a {
-    color: #3498db;
-    
+    color: #61dafb;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.1em;
+    transition: color 0.3s;
   }
+  
+  a:hover {
+    color: #4fc3f7;
+    text-shadow: 0 0 5px #4fc3f7, 0 0 20px #4fc3f7, 0 0 30px #4fc3f7;
+    font-weight: bold;
+  }
+  
+  /* section HEADER */
+
+  .header {
+    background-color: #0a0a0a; /* Noir glacé */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: #61dafb; 
+  }
+  
+  /* Styles pour le titre */
+  .header-title {
+    font-size: 36px;
+    margin-bottom: 80px; 
+    color:#61dafb;
+  }
+  
+  
+  /* Styles pour la navigation */
+  nav {
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    justify-content: center;
+    border: #61dafb 1px solid;
+    padding: 40px;
+  }
+  
+  nav a {
+    color: #61dafb;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  /* Composant INTRODUCTION */
+  
+
+  /* Composant SLIDER */ 
+  
+  /* Composant SKILLS */
+  
+  /* Composant PROJECTS */
+  
+  /* Composant CONTACT */
+
+
+
+
+  /* Composant FOOTER */
+  .a{ display: flex;
+       gap: 100px; 
+}
+

@@ -1,23 +1,21 @@
-//src/components/Header.js
 import React from 'react';
-import { animated } from 'react-spring';
-import './style.css';
+import '../style.css';
 
-const Header = ({ style }) => {
-  return (
-    <animated.header style={style}>
-      {/* Votre logo animé */}
-      <div className="logo">Logo</div>
-      <h1>PORTFOLIO</h1>
-      {/* Navbar avec les liens vers différentes sections */}
-      <nav style={{color:'black', fontFamily:'Roboto'}}>
-        <a href="#presentation">Présentation</a>
-        <a href="#competences">Compétences</a>
-        <a href="#projets">Projets</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </animated.header>
-  );
-};
-
-export default Header;
+const Header = () => {
+    return (
+      <header className='header'>
+        {/* Votre titre stylisé */}
+        <h1 className="header-title">Portfolio</h1>
+        {/* Navbar */}
+        <nav>
+          <a href="#presentation">Présentation</a>
+          <a href="#competences">Compétences</a>
+          <a href="#projets">Projets</a>
+          <a href="#contact">Contact</a>
+          <a href='#CV'> Curriculum Vitae</a>
+        </nav>
+      </header>
+    );
+  }
+  
+  export default Header;

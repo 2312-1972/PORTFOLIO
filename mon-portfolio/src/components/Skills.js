@@ -1,18 +1,24 @@
 // src/components/Skills.js
 import React from 'react';
-import { animated } from 'react-spring';
+import '../style.css'
 
-const Skills = ({ style }) => {
+const Skills = () => {
   return (
-    <animated.section id="competences" style={style}>
-      {/* Vos compétences en langages, frameworks, etc. */}
-      <h2>Compétences</h2>
+    <div id="competences" className='header'>
+     <h2>Compétences</h2>
       <ul>
         <li>React</li>
         <li>JavaScript</li>
-        {/* Ajoutez d'autres compétences ici */}
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        
       </ul>
-    </animated.section>
+    </div>
   );
 };
 

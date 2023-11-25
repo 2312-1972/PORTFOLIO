@@ -2,6 +2,7 @@
 import React from 'react';
 import './style.css';
 import Header from "./components/Header";
+import Slider from "./components/Slideshow";
 import Introduction from "./components/Introductions";
 import Skills from "./components/Introductions";
 import Projects from "./components/Projects";
@@ -11,10 +12,11 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div >
+    <div className='body'>
       <Header />
       <Introduction />
-      <Skills />
+      <Slider />
+       <Skills /> 
       <Projects />
       <Contact />
       <Footer />
