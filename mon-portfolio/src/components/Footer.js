@@ -1,18 +1,22 @@
 // src/components/Footer.js
 import React from 'react';
-import { FaGithub, FaYoutube, FaLinkedin } from 'react-icons/fa';
+import { Link} from 'react-router-dom';
+import { FaGithub,  FaLinkedin, FaEnvelope} from 'react-icons/fa';
 import '../style.css'
+
+
+
+
 const Footer = () => {
   return (
-    <footer id='CV'  className='header'>
+    <footer id='CV'  className='header' style={{borderTop:'1px solid white',paddingTop:'50px'}}>
+      
       <div className='a'>   
-      {/* Icones et liens vers GitHub, YouTube, LinkedIn */}
-      <a href="lien-vers-github"><FaGithub style={{fontSize:'30px'}}/></a>
-      <a href="lien-vers-youtube"><FaYoutube style={{fontSize:'30px'}}/></a>
-      <a href="lien-vers-linkedin"><FaLinkedin style={{fontSize:'30px'}}/></a>
-      {/* Lien vers votre CV */}
-      <a href="lien-vers-cv" style={{textDecoration:'none', fontSize:'20px'}}> CV</a>
-      </div>
+      <Link to={'./pages/contact'}><FaEnvelope style={{fontSize:'25px'}}/></Link>
+      <Link to={'https://github.com/2312-1972'}><FaGithub style={{fontSize:'25px'}}/></Link>
+      <Link to={'https://www.linkedin.com/in/frederic-t-283ab24b/'}><FaLinkedin style={{fontSize:'25px'}}/></Link>
+       </div>
+       <h4 style={{fontSize:'12px',color:'white'}}>©2023  Frédéric TOPPAN, Tous droits réservés </h4>
     </footer>
   );
 };

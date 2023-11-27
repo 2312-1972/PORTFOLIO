@@ -1,26 +1,24 @@
-
 import React from 'react';
+import { BrowserRouter as Router, Route,Routes} from 'react-router-dom';
 import './style.css';
-import Header from "./components/Header";
-import Slider from "./components/Slideshow";
-import Introduction from "./components/Introductions";
-import Skills from "./components/Introductions";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-
-
+import HomePage from "./pages/Home";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Header from "./components/Header"; // Ajoutez l'import du composant Header
+import Footer from './components/Footer';
 function App() {
   return (
-    <div className='body'>
-      <Header />
-      <Introduction />
-      <Slider />
-       <Skills /> 
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className='body'>
+        <Header /> 
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
