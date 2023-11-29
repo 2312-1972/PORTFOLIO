@@ -9,7 +9,7 @@ import '../style.css'
 
 const Footer = () => {
   return (
-    <footer id='CV'  className='header' style={{borderTop:'1px solid white',paddingTop:'50px'}}>
+    <footer id='CV'  className='back-footer' >
       
       <div className='a'>   
       <Link to={'./pages/contact'}><FaEnvelope style={{fontSize:'25px'}}/></Link>

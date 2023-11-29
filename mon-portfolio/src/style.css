@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
 
 .body {
+    background-image: url("./images/wepik-export-20231129141019ssb6.webp") ;
     font-family: 'Roboto', 'Open Sans', sans-serif;
-   
-    background-color: #0a0a0a; 
+    /* background-color: #0a0a0a;  */
     margin: 0;
     padding: 0;
     color: #61dafb; 
   }
   
+
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', 'Open Sans', sans-serif;
     color: #61dafb;
@@ -28,25 +33,68 @@
   }
  
   /* section HEADER */
-
   .header {
-    background-color: #0a0a0a; /* Noir glacé */
+    /* background-color: #0a0a0a;  */
     padding: 20px;
     display: flex;
     flex-direction: column; 
     align-items: center;
     color: #61dafb; 
+    }
+
+
+
+  .menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 60px;
+    
   }
-  .loader {
+  
+  .target {
+    margin-left: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    
+  }
+  
+  .target::after {
+    content: "";
+    position: absolute;
+    height: 3rem;
+    width: 5px;
+    top: 0;
+    transform: translateY(-4px);
+    right: -5px;
+    opacity: 1;
+    animation: anim 1.5s linear infinite;
+    
+  }
+  
+  @keyframes anim {
+    50% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+  .circular {
     width: 150px;
     height: 150px;
     border-radius: 100px;
     vertical-align: middle;
     display: inline-block;
     position: relative;
+   
   }
   
-  .loader-rotate {
+  .circular-rotate {
     width: 150px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.45);
     border: 6px solid #61dafb;
@@ -55,7 +103,7 @@
     position: relative;
   }
   
-  .loader-rotate:after {
+  .circular-rotate:after {
     content: "";
     border-radius: 100px;
     position: absolute;
@@ -84,70 +132,12 @@
     margin-bottom: 80px; 
     color:#61dafb;
   }
-  .logo-container {
-    position: relative;
-    width: 200px;
-    height: 200px;
-  }
   
-  .outer-circle, .inner-circle {
-    position: absolute;
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-    background: conic-gradient(from 0deg, #00508c, #61dafb, #00508c);
-    border: 2px solid white ;
-
-    animation: spin 5s linear infinite;
-  }
-  
-  .inner-circle {
-    width: 80%;
-    height: 80%;
-    top: 10%;
-    left: 10%;
-    background: conic-gradient(from 0deg, #00508c, #61dafb, #00508c);
-    border: 1px solid white;
-    animation: spin-reverse 5s linear infinite;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-    position: relative;
-  }
-  .initials {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffffff; /* Couleur du texte */
-    text-shadow: 2px 2px 4px #0a0a0a; /* Effet d'ombre basé sur le noir #0a0a0a */
-    line-height: 5px;
-  }
-
-  
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes spin-reverse {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(-360deg);
-    }
-  }
-  
-  /* Styles pour la navigation */
   nav {
     display: flex;
     gap: 50px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
    
     padding: 20px;
     
@@ -158,7 +148,37 @@
     margin-top: 10px;
     text-decoration: none;
   }
+  /* composant NavBar */
+  .back-Nav {
+    border-bottom:  1px solid white;
+   
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    margin-top: 50px;
+   }
+
+   @keyframes grow {
+    from {
+      font-size: 18px;
+    }
+    to {
+      font-size: 22px;
+    }
+  }
+  
   /* Composant INTRODUCTION */
+  .back-intro {
+     background-color: #0a0a0a;  
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: #61dafb; 
+    padding: 80px;
+    }
+
+
   .circle-container {
     width: 140px;
     height: 140px;
@@ -196,6 +216,17 @@
 
 
   /* Composant FOOTER */
+  .back-footer {
+    background-color: #0a0a0a;  
+   padding: 20px;
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   color: #61dafb; 
+   border-top: 1px solid white;
+   padding-top: 50px;
+   }
+
   .a{ display: flex;
        gap: 15px; 
 }

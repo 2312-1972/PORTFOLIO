@@ -1,16 +1,16 @@
 // src/components/Introduction.js
 import React from 'react';
 import '../style.css'
-import portrait from'../images/20180912_110504 (2).jpg';
+import portrait from'../images/20180912_110504.webp';
 
 const Introduction = () => {
   return (
-  <div className=' header' style={{ padding:'80px'}}>
-     <span className=" loader loader-rotate"> 
+  <div className=' back-intro ' >
+     <span className=" circular circular-rotate" > 
      <img  src={portrait} alt='portrait' className="circular-image" style={{padding:'4px'}} />
       </span>
-      <h2>A propos</h2>
-      <p style={{display:'flex',justifyContent:'center', alignItems:'center', padding:'80px'}}>Je suis Frédéric TOPPAN, un développeur front-end passionné  avec une passion dévorante pour la création d'expériences web exceptionnelles. 
+      <h2>Présentation </h2>
+      <p style={{display:'flex',justifyContent:'flex-start', alignItems:'center', padding:'80px', fontSize:'20px',fontFamily:'Dancing Script'}}>Je suis Frédéric TOPPAN, un développeur front-end passionné  avec une passion dévorante pour la création d'expériences web exceptionnelles. 
         Fort de mon parcours constitué de  solide expérience dans le développement front-end, je suis constamment en quête d'innovation et d'élégance 
         dans chaque ligne de code que j'écris.</p>
       <h3>   Compétences Clés</h3> 
