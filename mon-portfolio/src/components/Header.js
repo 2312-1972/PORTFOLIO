@@ -1,7 +1,9 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
 import '../style.css';
-import backHeader from '../images/wepik-export-20231129141019ssb6.webp';
+import Logo from "../images/Shenzor.png"
+
+
 
 const Header = () => {
   const [typedText, setTypedText] = useState('');
@@ -31,18 +33,18 @@ const Header = () => {
         isDeleting = false;
         clearInterval(intervalId);
 
-        // Attend 1 seconde avant de recommencer
+       
         setTimeout(() => {
           setTypedText('');
           index = 0;
           isDeleting = false;
           // Recommence l'animation
-          intervalId = setInterval(intervalFunction, 100);
-        }, 1000);
+          intervalId = setInterval(intervalFunction, 120);
+        }, 100);
       }
     };
 
-    intervalId = setInterval(intervalFunction, 100);
+    intervalId = setInterval(intervalFunction, 120);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -50,13 +52,15 @@ const Header = () => {
   const getTitleAndText = useCallback(() => {
     switch (location.pathname) {
       case '/':
-        return { pageTitle: 'Bienvenue', animationText: '..sur mon Portfolio..' };
+        return { pageTitle: '', animationText: "Bienvenue sur mon portfolio" };
       case '/projects':
-        return { pageTitle: 'Voici', animationText: '..mes projets réalisés..' };
+        return { pageTitle: '', animationText: 'Mes dernières réalisations' };
+      case '/competences':
+        return { pageTitle: '', animationText: ' Mes compétences' };
       case '/contact':
-        return { pageTitle: 'Vous', animationText: '..pouvez me laisser un message !!..' };
+        return { pageTitle: '', animationText: "N'hésitez pas à me contacter" };
       default:
-        return { pageTitle: 'Bienvenue', animationText: '..sur mon Portfolio..' };
+        return { pageTitle: '', animationText: 'Bienvenue sur mon Portfolio' };
     }
   }, [location.pathname]);
 
@@ -68,14 +72,17 @@ const Header = () => {
   }, [getTitleAndText, startTyping]);
 
   return (
-    <header className="header" style={{ background: { backHeader } }}>
-      <div className="menu">
-        <h3 style={{ fontFamily: 'Dancing Script', fontSize: '40px', color: 'white' }}>
-          {getTitleAndText().pageTitle}
-        </h3>
-        <h3 style={{ fontFamily: 'Dancing Script', fontSize: '40px', color: 'white' }}>{typedText}</h3>
-      </div>
-    </header>
+    <header className="header">
+    <div className="logo-container">
+      <img src={Logo} alt='logo' style={{ width: '100%', height: 'auto', maxWidth: '350px'}} />
+    </div>
+    <div className="menu">
+      <h3 className='h3-animation'>
+        {getTitleAndText().pageTitle}
+      </h3>
+      <h3 className='h3-animation'>{typedText}</h3>
+    </div>
+  </header>
   );
 };
 

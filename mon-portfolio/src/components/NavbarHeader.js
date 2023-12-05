@@ -13,31 +13,36 @@ const NavbarHeader = () => {
           <div>      
           <Link style={{
             fontSize: isActiveLink('/') ? '22px' : '18px',
-            color: isActiveLink('/') ? '#00bfff' : 'white',
+            color: isActiveLink('/') ? '#65c8f7' : 'black',
+            textShadow: isActiveLink('/') ? '':'' ,
             fontWeight: isActiveLink('/') ? 'bold' : 'normal',
           }}to="/">Acceuil</Link>
           </div> 
            <div>   
           <Link style={{
           fontSize: isActiveLink('/projects') ? '22px' : '18px',
-          color: isActiveLink('/projects') ? '#00bfff' : 'white',
+          color: isActiveLink('/projects') ? '#65c8f7' : 'black',
+          textShadow: isActiveLink('/projects') ? '':'' ,
           fontWeight: isActiveLink('/projects') ? 'bold' : 'normal',
-        }}to="/projects">Projets</Link>
+        }}to="/projects">Réalisations</Link>
           </div>
           <div>  
           <Link style={{
         fontSize: isActiveLink('/competences') ? '22px' : '18px',
-        color: isActiveLink('/competences') ? '#00bfff' : 'white',
+        color: isActiveLink('/competences') ? '#65c8f7' : 'black',
+        textShadow: isActiveLink('/competences') ? '':'' ,
         fontWeight: isActiveLink('/competences') ? 'bold' : 'normal',
         }}to="/competences">Compétences</Link>
           </div> 
           <div>   
           <Link style={{
             fontSize: isActiveLink('/contact') ? '22px' : '18px',
-            color: isActiveLink('/contact') ? '#00bfff' : 'white',
+            color: isActiveLink('/contact') ? '#65c8f7' : 'black',
+            textShadow: isActiveLink('/contact') ? '':'' ,
         fontWeight: isActiveLink('/contact') ? 'bold' : 'normal',
         }}to="/contact">Contact</Link>
-          </div>
+        </div>
+       
         </nav>
      
     );
