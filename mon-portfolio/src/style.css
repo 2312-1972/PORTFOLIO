@@ -33,7 +33,16 @@
     /* text-shadow: 0 0 5px #4fc3f7, 0 0 20px #65c8f7, 0 0 30px #4fc3f7; */
     font-weight: bold;
   }
- 
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
   /* section HEADER */
   .header {
    padding: 20px;
@@ -45,7 +54,10 @@
     background-color: #0a0a0a;
     }
 
-
+.logo{
+  width: 350px;
+  height: 350px;
+}
 
    .menu {
     display: flex;
@@ -161,30 +173,31 @@
   /*  Styles  pour la   NAVBAR  */
   nav {
     display: flex;
-    gap: 50px;
+    gap: 100px;
     align-items: center;
     justify-content: flex-start;
-   
     padding: 20px;
+    width: auto;
+    background-color:  rgb(247, 245, 245);
     
   }
   
   nav a {
-    color: white;
-    margin-top: 10px;
+      margin-top: 10px;
     text-decoration: none;
+   
   }
-  /* composant NavBar */
-  .back-Nav {
-    background-color:  rgb(247, 245, 245);
-    display: flex;
-    flex-direction: row; 
-    justify-content: flex-start;
-    
-    
+  
 
-   }
-
+nav a:hover {
+    border: 2px solid grey; 
+    padding-top: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    
+  }
+  
+  
 
   
   /* Composant INTRODUCTION */
@@ -197,7 +210,8 @@
     color: white;
     padding: 80px;
     }
-  .h-intro{
+
+    .h-intro{
   border: 1px solid white;
   width: auto;
   border-radius: 4px;
@@ -212,6 +226,87 @@
   line-height: 30px;
   color: whitesmoke;
 }
+ /* animation texte présentation */
+
+ .p1{
+  animation: P1 2s ease-in-out;
+ }
+ @keyframes P1{
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  85%, 100% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.p2{
+  animation: P2 2s   400ms ease-in-out;
+}
+@keyframes P2 {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  85%, 100% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.p3{
+  animation: P3 2s 800ms ease-in-out;
+}
+@keyframes P3 {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  85%, 100% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.p4{
+  animation: P4 2s 1200ms ease-in-out;
+}
+@keyframes P4 {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  85%, 100% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.p5{
+  animation: P5 2s 1600ms ease-in-out;
+}
+@keyframes P5 {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  85%, 100% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
   .circle-container {
     width: 140px;
     height: 140px;
@@ -238,6 +333,7 @@
     border-radius: 50%;
     
   }
+  
   /* Composant SLIDER */ 
   
   /* Composant SKILLS */
@@ -246,7 +342,20 @@
   /* Composant PROJECTS */
   
   /* Composant CONTACT */
-
+  .back-contact {
+    background-color: #0a0a0a;  
+   padding: 20px;
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   color: white;
+   padding: 80px;
+   }
+.intro-contact{
+  width:1000px;
+  
+  border:none;
+}
 
 
 
@@ -263,8 +372,32 @@
    }
 
   .a{ display: flex;
-       gap: 15px; 
+       gap: 25px; 
        }
+
+
+/* ecran apartir de 1024px */
+ @media screen and (max-width: 1024px) {
+
+  nav { 
+    width: auto;
+    gap: 100px;}
+  
+    .circular-image {
+      width: 400px;
+      height: 400px;
+      margin-left: 450px;
+    }
+    .intro-contact{
+      width:800px;
+      }
+
+ }
+
+
+
+
+
 
        @media screen and (max-width: 849px) {
       .header{ justify-content: center;}
@@ -275,4 +408,5 @@
           margin-bottom: 20px;
           margin-left: 40px; /* Ajoutez un espace entre le logo et le texte */
         }
+       
       }

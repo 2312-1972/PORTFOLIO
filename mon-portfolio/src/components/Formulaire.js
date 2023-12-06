@@ -23,16 +23,7 @@ const Formulaire= () => {
         </label>
      <div className="input-group">
         </div>
-        {/* <div className="segment">
-        <button className="unit" type="button">
-          <i className="icon ion-md-arrow-back"></i>
-        </button>
-        <button className="unit" type="button">
-          <i className="icon ion-md-bookmark"></i>
-        </button>
-       
-      </div> */}
-        <button className="red" type="button">
+     <button className="red" type="button">
         <i className="icon ion-md-lock"></i> Submit
       </button>
     </form>

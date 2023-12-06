@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
 import '../style.css';
-import Logo from "../images/Shenzor.png"
+import Logo from "../images/Shenzor.webp"
 
 
 
@@ -74,7 +74,7 @@ const Header = () => {
   return (
     <header className="header">
     <div className="logo-container">
-      <img src={Logo} alt='logo' style={{ width: '100%', height: 'auto', maxWidth: '350px'}} />
+      <img src={Logo} alt='logo' className='logo'/>
     </div>
     <div className="menu">
       <h3 className='h3-animation'>
