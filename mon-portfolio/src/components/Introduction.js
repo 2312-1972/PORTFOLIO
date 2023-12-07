@@ -23,13 +23,12 @@ const Introduction = () => {
           className="letter-space intro-contact p1"
           style={{ marginTop: "200px" }}
         >
-          Je m'appelle{" "}
+          Je m'appelle
           <span
             className="h-intro"
             style={{ border: "none", fontWeight: "bold", fontSize: "22px" }}
           >
-            {" "}
-            Frédéric TOPPAN,{" "}
+          Frédéric TOPPAN,
           </span>
           enthousiaste du code et passionné par le monde numérique, je suis un
           développeur web dédié à créer des expériences en ligne

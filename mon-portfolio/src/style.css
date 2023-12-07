@@ -183,12 +183,12 @@ nav a:hover {
 /* Composant INTRODUCTION */
 .back-intro {
   background-color: #0a0a0a;
-  padding: 20px;
+  padding: 80px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   color: white;
-  padding: 80px;
+
 }
 
 .h-intro {
@@ -201,6 +201,7 @@ nav a:hover {
   letter-spacing: 2px;
   justify-content: center;
 }
+
 .letter-space {
   letter-spacing: 2px;
   line-height: 30px;
@@ -324,20 +325,59 @@ nav a:hover {
 
 /* Composant PROJECTS */
 
+.project-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.project-card.future {
+  /* Styles spécifiques pour les projets futurs */
+  border-color: #ccc;
+}
+
+.project-card.current {
+  /* Styles spécifiques pour les projets actuels */
+  border-color: #007bff;
+}
+
+.project-card h4 {
+  color: #333;
+}
+
+.project-card p {
+  color: #666;
+}
+
+.project-card .technologies span {
+  margin-right: 5px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+
+
 /* Composant CONTACT */
 .back-contact {
   background-color: #0a0a0a;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
   padding: 80px;
+  
 }
+.contact-text{
+  width: 1000px;
+  border: none;
+}
+
 .intro-contact {
   width: 1000px;
-
-  border: none;
+border: none;
 }
 .form-control {
   padding: 15px;
