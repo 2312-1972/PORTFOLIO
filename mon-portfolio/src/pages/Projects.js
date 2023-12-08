@@ -21,7 +21,7 @@ function Project() {
               <img src={project.image} alt={project.title} className="card-image" />
               <h3 className="card-title">{project.title}</h3>
             </div>
-            <div className="card-back">
+            <div className="card-back" >
               <p className="card-description">{project.description}</p>
               <ul className="card-technologies">
                 {project.technologies.map((tech, index) => (

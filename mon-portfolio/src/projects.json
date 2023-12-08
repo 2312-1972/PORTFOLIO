@@ -2,9 +2,10 @@
   "projects": [
     { "id": "PJ01" ,
       "title": "Booki",
-      "image": "/images/Booki.webp",
+      "image": "/images/booki.webp",
       "description": "site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix ",
       "technologies": ["Figma", "HTML5", "CSS3"],
+      "github":"https://github.com/2312-1972/booki-starter-code-master",
       "future": false
     },
     {
@@ -23,14 +24,14 @@
     },
     { "id": "PJ03" ,
       "title": "Qwenta ",
-      "image": " /images/",
+      "image": " /images/qwenta.webp",
       "description": "Site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement.",
       "technologies": ["AGILE", "PEARLTRESS", "TRELLO"],
       "future": false
     },
     { "id": "PJ04" ,
       "title": "Kasa",
-      "image": "/images/",
+      "image": "/images/enzo.webp",
       "description": "Site de location d’appartements entre particuliers",
       "technologies": ["REACT", "REACT Router", "Sass"],
       "future": false
@@ -40,39 +41,39 @@
       "image": "/images/nina.webp",
       "description": "Optimisation du référencement d'un site de photographe",
       "technologies": ["REACT", "REACT Router", "Sass"],
-      "future": false
+       "future": false
     },
     { "id": "PJ06" ,
       "title": "724 Events",
-      "image": "images/",
+      "image": "/images/724events2.webp",
       "description": "Débuggez le site d'une agence d'événementiel",
       "technologies": ["REACT", "Chrome DevTools", "JEST", "Testing-REACT"],
       "future": false
     },
     { "id": "PJ07" ,
       "title": "ArgentBank",
-      "image": "images/",
+      "image": "/images/bank-tree.webp",
       "description": "Implémentez le front-end d'une application bancaire",
       "technologies": ["REACT", "REDUX", "NODE", "MONGODB"],
       "future": false
     },
     { "id": "PJ08" ,
       "title": "Aux ciseaux de shirley",
-      "image": "images/",
+      "image": "/images/shirley.webp",
       "description": "Description du projet 7.",
       "technologies": ["Angular", "SCSS", "Express"],
       "future": true
     },
     { "id": "PJ09" ,
       "title": "Abejorro DronePilot",
-      "image": "images/",
+      "image": "/images/abejorro.webp",
       "description": "Description du projet 8.",
       "technologies": ["Angular", "SCSS", "Express"],
       "future": true
     },
     { "id": "PJ10" ,
-      "title": "Vivi Parrot design",
-      "image": "images/",
+      "title": "Vivi Parrot Lifestyle",
+      "image": "/images/vivi.webp",
       "description": "Description du projet 9.",
       "technologies": ["Angular", "SCSS", "Express"],
       "future": true
