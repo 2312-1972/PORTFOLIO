@@ -1,69 +1,82 @@
 {
-    "projects": [
-      {
-        "title": "O my food ",
-        "image": "",
-        "description": "Description du projet 1.",
-        "technologies": ["React", "CSS", "Node.js"],
-        "future": false
-      },
-      {
-        "title": "Booki",
-        "image": "",
-        "description": "Description du projet 2.",
-        "technologies": ["Vue.js", "HTML", "Firebase"],
-        "future": false
-      },
-      {
-        "title": "Sophie BLUEL",
-        "image": "",
-        "description": "Description du projet 3.",
-        "technologies": ["Angular", "SCSS", "Express"],
-        "future": false
-      },
-      {
-        "title": "724 Events",
-        "image": "",
-        "description": "Description du projet 4.",
-        "technologies": ["Angular", "SCSS", "Express"],
-        "future": false
-      },
-      {
-        "title": "Kasa",
-        "image": "",
-        "description": "Description du projet 5.",
-        "technologies": ["Angular", "SCSS", "Express"],
-        "future": false
-      },
-      {
-        "title": "ArgentBank",
-        "image": "",
-        "description": "Description du projet 6.",
-        "technologies": ["Angular", "SCSS", "Express"],
-        "future": false
-      },
-      {
-        "title": "Aux ciseaux de shirley",
-        "image": "",
-        "description": "Description du projet 7.",
-        "technologies": ["Angular", "SCSS", "Express"],
-        "future": true
-      },
-      {
-        "title": "Abejorro DronePilot",
-        "image": "",
-        "description": "Description du projet 8.",
-        "technologies": ["Angular", "SCSS", "Express"],
-        "future": true
-      },
-      {
-        "title": "Vivi Parrot design",
-        "image": "",
-        "description": "Description du projet 9.",
-        "technologies": ["Angular", "SCSS", "Express"],
-        "future": true
-      }
+  "projects": [
+    { "id": "PJ01" ,
+      "title": "Booki",
+      "image": "images/Booki.png",
+      "description": "site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix ",
+      "technologies": ["Figma", "HTML5", "CSS3"],
+      "future": false
+    },
+    {
+      "title": "O my food ",
+      "image": "images/Ohmyfood.webp",
+      "description": "  Site  qui répertorie les menus de restaurants gastronomiques",
+      "technologies": ["HTML5", "CSS3", "Sass", "Keyframes","Figma"],
+      "future": false
+    },
+    { "id": "PJ02" ,
+      "title": "Sophie BLUEL ",
+      "image": " images/",
+      "description": "Conception du site portfolio d’une architecte d’intérieur.",
+      "technologies": ["Javascript", "CSS3", "API"],
+      "future": false
+    },
+    { "id": "PJ03" ,
+      "title": "Qwenta ",
+      "image": " images/",
+      "description": "Site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement.",
+      "technologies": ["AGILE", "PEARLTRESS", "TRELLO"],
+      "future": false
+    },
+    { "id": "PJ04" ,
+      "title": "Kasa",
+      "image": "images/",
+      "description": "Site de location d’appartements entre particuliers",
+      "technologies": ["REACT", "REACT Router", "Sass"],
+      "future": false
+    },
+    { "id": "PJ05" ,
+      "title": "Nina CARDUCCI",
+      "image": "images/",
+      "description": "Optimisation du référencement d'un site de photographe",
+      "technologies": ["REACT", "REACT Router", "Sass"],
+      "future": false
+    },
+    { "id": "PJ06" ,
+      "title": "724 Events",
+      "image": "images/",
+      "description": "Débuggez le site d'une agence d'événementiel",
+      "technologies": ["REACT", "Chrome DevTools", "JEST", "Testing-REACT"],
+      "future": false
+    },
+    { "id": "PJ07" ,
+      "title": "ArgentBank",
+      "image": "images/",
+      "description": "Implémentez le front-end d'une application bancaire",
+      "technologies": ["REACT", "REDUX", "NODE", "MONGODB"],
+      "future": false
+    },
+    { "id": "PJ08" ,
+      "title": "Aux ciseaux de shirley",
+      "image": "images/",
+      "description": "Description du projet 7.",
+      "technologies": ["Angular", "SCSS", "Express"],
+      "future": true
+    },
+    { "id": "PJ09" ,
+      "title": "Abejorro DronePilot",
+      "image": "images/",
+      "description": "Description du projet 8.",
+      "technologies": ["Angular", "SCSS", "Express"],
+      "future": true
+    },
+    { "id": "PJ10" ,
+      "title": "Vivi Parrot design",
+      "image": "images/",
+      "description": "Description du projet 9.",
+      "technologies": ["Angular", "SCSS", "Express"],
+      "future": true
+    }
 
-    ]
-  }
-  
+  ]
+}
