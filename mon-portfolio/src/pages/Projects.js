@@ -15,8 +15,8 @@ function Project() {
         solutions significatives qui améliorent la vie des utilisateurs.
       </h3>
       <div className="projects-container">
-        {projects.map((project) => (
-          <div key={project.id} className="project-card">
+        {projects.map((project, index) => (
+          <div key={index} className="project-card">
             <div className="card-front">
               <img src={project.image} alt={project.title} className="card-image" />
               <h3 className="card-title">{project.title}</h3>
@@ -37,6 +37,3 @@ function Project() {
 }
 
 export default Project;
-
-
-
