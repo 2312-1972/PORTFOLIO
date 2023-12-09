@@ -4,7 +4,7 @@
       "logo":"/images/logos/booki-logo.webp",
       "title": "Booki",
       "image": "/images/front/booki.webp",
-      "description": "site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix ",
+      "description": "Site Internet  permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.  Respect des maquettes figma fournies par l'UX designer, mon rôle était d'intégrer  l'interface Front end du site en HTML et CSS. ",
       "technologies": [
         { "name": "HTML5", "icon": "/images/html.webp" },
         { "name": "CSS3", "icon": "/images/css.webp" },
@@ -31,7 +31,7 @@
     "logo":"/images/logos/sophiebluel.logo.webp",
       "title": "Sophie BLUEL ",
       "image": " /images/front/bar-lullaby-paris.webp",
-      "description": "Conception du site portfolio d’une architecte d’intérieur.",
+      "description": "Conception du site portfolio  de l'architecte d'intérieur Sophie Bluel, affichage dynamique en Javascript sur la page d'accueil des différentes réalisations depuis une API, possibilité de  filtrer par catégories, assurant une navigation utilisateurs fluides .Création  d'une logique de connexion sécurisée de l'architecte (log-in) en utilisant le CRUD, afin d'ajouter et de supprimer  des projets toujours dynamiquement .",
       "technologies": [
       { "name": "API", "icon": "/images/API.webp" },
       { "name": "HTML5", "icon": "/images/html.webp" },
