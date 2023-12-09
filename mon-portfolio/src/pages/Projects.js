@@ -14,6 +14,7 @@ function Project() {
           padding: "5px",
           textAlign: "center",
           borderRadius: "5px",
+          boxShadow: "0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7",
         }}
       >
         J'ai eu le privilège de travailler sur une variété de projets
@@ -41,7 +42,7 @@ function Project() {
               />
             </div>
             <div className="card-back">
-              <p className="card-description">{project.description}</p>
+              <p  className="card-description">{project.description}</p>
               <ul className="card-technologies">
                 {project.technologies.map((tech) => (
                   <li key={tech.name}>
