@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaDiscord } from 'react-icons/fa';
 import '../style.css';
 
 const Footer = () => {
@@ -17,8 +17,11 @@ const Footer = () => {
           <span className="sr-only">LinkedIn</span>
           <FaLinkedin />
         </Link>
-
-        <Link to={'./pages/contact'} aria-label="Contact" style={{ fontSize: '26px' }}>
+        <Link to={'https://discord.gg/2Bb6kV8K'} aria-label="Discord" style={{ fontSize: '26px' }}>
+          <span className="sr-only">Discord</span>
+          <FaDiscord />
+        </Link>
+        <Link to={'./contact'} aria-label="Contact" style={{ fontSize: '26px' }}>
           <span className="sr-only">Contact</span>
           <FaEnvelope />
         </Link>
