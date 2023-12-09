@@ -58,7 +58,7 @@
     "logo":"/images/logos/kasa-logo.webp",
       "title": "Kasa",
       "image": "/images/front/enzo.webp",
-      "description": "Site de location d’appartements entre particuliers",
+      "description": "Site de location d’appartements entre particuliers, établissement d'une full stack avec Javascript, NodeJS et react côté front-end, mise en place du routage avec React-router  et du Green code de par notamment des composants réutilisables.",
       "technologies": [
        { "name": "Sass", "icon": "/images/sass.webp" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
@@ -74,7 +74,6 @@
       "technologies": [
         { "name": "SEO", "icon": "/images/SEO.webp" },
         { "name": "Lighthouse", "icon": "/images/lighthouse.webp" },
-        { "name": "Gtmetrix", "icon": "/images/news2.png" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
       ],
       "github":"https://github.com/2312-1972/Nina-CARDUCCI",
@@ -84,7 +83,7 @@
     "logo":"/images/logos/77events.webp",
       "title": "77 Events",
       "image": "/images/front/724events2.webp",
-      "description": "Débuggez le site d'une agence d'événementiel",
+      "description": "Il s’agit d’un site one-page d'une agence d'événementiel dont le nouveau design n'était pas opérationnel, Débuggage et phase de test avec  Jest et react/testing , mise en  place d'un cahier de recette suive de tests unitaires, de développements et fonctionnels",
       "technologies": [
         { "name": "Node", "icon": "/images/node.webp" },
         { "name": "React", "icon": "/images/react.webp" },
@@ -111,7 +110,7 @@
     { "id": "PJ08" ,
       "title": "Aux ciseaux de shirley",
       "image": "/images/front/shirley.webp",
-      "description": "Description du projet 7.",
+      "description": "Site vitrine et single page d'une coiffeuse mixte a domicile",
       "technologies": [""],
       "github":"",
       "future": true
@@ -119,7 +118,7 @@
     { "id": "PJ09" ,
       "title": "Abejorro DronePilot",
       "image": "/images/front/abejorro.webp",
-      "description": "Description du projet 8.",
+      "description": "Site commercial d'un pilote de drône ",
       "technologies": [""],
       "github":"",
       "future": true
@@ -127,7 +126,7 @@
     { "id": "PJ10" ,
       "title": "Vivi Parrot Lifestyle",
       "image": "/images/front/vivi.webp",
-      "description": "Description du projet 9.",
+      "description": "Bien être et manger  ",
       "technologies": [""],
       "github":"",
       "future": true
