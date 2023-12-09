@@ -24,7 +24,7 @@ const Footer = () => {
         </Link>
       </div>
 
-      <h4 style={{ fontSize: '12px', color: 'white', width: 'auto' }}>©2023 Frédéric TOPPAN, Tous droits réservés </h4>
+      <h4 style={{ fontSize: '14px', color: 'white', width: 'auto',fontFamily:'oxygen'}}>©2023 Frédéric TOPPAN, Tous droits réservés </h4>
     </footer>
   );
 };

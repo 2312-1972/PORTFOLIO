@@ -4,7 +4,11 @@
       "title": "Booki",
       "image": "/images/booki.webp",
       "description": "site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix ",
-      "technologies": ["Figma", "HTML5", "CSS3"],
+      "technologies": [
+        { "name": "Figma", "icon": "/images/figma-icon.png" },
+        { "name": "HTML5", "icon": "/images/html5-icon.png" },
+        { "name": "CSS3", "icon": "/images/css3-icon.png" }
+      ],
       "github":"https://github.com/2312-1972/booki-starter-code-master",
       "future": false
     },
