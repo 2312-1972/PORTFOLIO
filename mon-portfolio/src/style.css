@@ -399,7 +399,10 @@ nav a:hover {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  gap: 8px;
+
 }
 
 .card-technologies li {
@@ -407,11 +410,22 @@ nav a:hover {
 }
 
 .tech-icon {
-  max-width: 30px; /* ajustez la taille maximale selon vos besoins */
-  max-height: 30px;
+  padding-top: 50px;
+  max-width: 60px; 
+  max-height: 60px;
   
 }
-
+.in-progress-text {
+  position: absolute;
+   font-size: 18px;
+  font-weight: bold;
+  color: #060606; 
+  border: 1px solid rgb(8, 8, 8);
+  padding: 5px;
+  border-radius: 5px;
+  background: #cecece;
+  left: 180px;
+}
 /* Composant CONTACT */
 .back-contact {
   background-color: #0a0a0a;

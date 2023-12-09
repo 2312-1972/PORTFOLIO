@@ -18,6 +18,7 @@ function Project() {
         {projects.map((project) => (
           <div key={project.id} className="project-card">
             <div className="card-front">
+            {project.future && <p className="in-progress-text">In Progress</p>}
               <img src={project.image} alt={project.title} className="card-image" />
               <h3 className="card-title">{project.title}</h3>
             </div>

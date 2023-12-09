@@ -2,84 +2,126 @@
   "projects": [
     { "id": "PJ01" ,
       "title": "Booki",
-      "image": "/images/booki.webp",
+      "image": "/images/front/booki.webp",
       "description": "site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix ",
       "technologies": [
-        { "name": "Figma", "icon": "/images/figma.webp" },
         { "name": "HTML5", "icon": "/images/html.webp" },
-        { "name": "CSS3", "icon": "/images/css.webp" }
+        { "name": "CSS3", "icon": "/images/css.webp" },
+        { "name": "git", "icon": "/images/git.webp" }
       ],
       "github":"https://github.com/2312-1972/booki-starter-code-master",
       "future": false
     },
     {
       "title": "Ohmyfood ",
-      "image": "/images/ohmyfood.webp",
+      "image": "/images/front/ohmyfood.webp",
       "description": "  Site  qui répertorie les menus de restaurants gastronomiques",
-      "technologies": ["HTML5", "CSS3", "Sass", "Keyframes","Figma"],
+      "technologies": [
+      { "name": "Figma", "icon": "/images/figma.webp" },
+      { "name": "HTML5", "icon": "/images/html.webp" },
+      { "name": "CSS3", "icon": "/images/css.webp" },
+      { "name": "Sass", "icon": "/images/sass.webp" }
+    ],
+      "github":"https://github.com/2312-1972/ohmyfood",
       "future": false
     },
     { "id": "PJ02" ,
       "title": "Sophie BLUEL ",
-      "image": " /images/bar-lullaby-paris.webp",
+      "image": " /images/front/bar-lullaby-paris.webp",
       "description": "Conception du site portfolio d’une architecte d’intérieur.",
-      "technologies": ["Javascript", "CSS3", "API"],
+      "technologies": [
+      { "name": "API", "icon": "/images/API.webp" },
+      { "name": "HTML5", "icon": "/images/html.webp" },
+      { "name": "CSS3", "icon": "/images/css.webp" },
+      { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
+    ],
+      "github":"https://github.com/2312-1972/Sophie-Bluel",
       "future": false
     },
     { "id": "PJ03" ,
       "title": "Qwenta ",
-      "image": " /images/qwenta.webp",
+      "image": " /images/front/qwenta.webp",
       "description": "Site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement.",
-      "technologies": ["AGILE", "PEARLTRESS", "TRELLO"],
+      "technologies": [
+      {"name": "Pearltress", "icon": "/images/pearltress.webp" },
+      { "name": "Trello", "icon": "/images/trello.webp" },
+      { "name": "Agile", "icon": "/images/agile.webp" }
+     ],
+      "github":"",
       "future": false
     },
     { "id": "PJ04" ,
       "title": "Kasa",
-      "image": "/images/enzo.webp",
+      "image": "/images/front/enzo.webp",
       "description": "Site de location d’appartements entre particuliers",
-      "technologies": ["REACT", "REACT Router", "Sass"],
+      "technologies": [
+       { "name": "Sass", "icon": "/images/sass.webp" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
+      ],
+      "github":"https://github.com/2312-1972/kasa",
       "future": false
     },
     { "id": "PJ05" ,
       "title": "Nina CARDUCCI",
-      "image": "/images/nina.webp",
+      "image": "/images/front/nina.webp",
       "description": "Optimisation du référencement d'un site de photographe",
-      "technologies": ["REACT", "REACT Router", "Sass"],
+      "technologies": [
+        { "name": "SEO", "icon": "/images/SEO.webp" },
+        { "name": "Lighthouse", "icon": "/images/lighthouse.webp" },
+        { "name": "Gtmetrix", "icon": "/images/news2.png" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
+      ],
+      "github":"https://github.com/2312-1972/Nina-CARDUCCI",
        "future": false
     },
     { "id": "PJ06" ,
-      "title": "724 Events",
-      "image": "/images/724events2.webp",
+      "title": "77 Events",
+      "image": "/images/front/724events2.webp",
       "description": "Débuggez le site d'une agence d'événementiel",
-      "technologies": ["REACT", "Chrome DevTools", "JEST", "Testing-REACT"],
+      "technologies": [
+        { "name": "Node", "icon": "/images/node.webp" },
+        { "name": "React", "icon": "/images/react.webp" },
+        { "name": "Jest", "icon": "/images/jest.webp" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
+      ],
+      "github":"https://github.com/2312-1972/77events-Debuggez-une-application-React.JS",
       "future": false
     },
     { "id": "PJ07" ,
       "title": "ArgentBank",
-      "image": "/images/bank-tree.webp",
+      "image": "/images/front/bank-tree.webp",
       "description": "Implémentez le front-end d'une application bancaire",
-      "technologies": ["REACT", "REDUX", "NODE", "MONGODB"],
+      "technologies": [ 
+      { "name": "API", "icon": "/images/API.webp" },
+      { "name": "React", "icon": "/images/react.webp" },
+      { "name": "Node", "icon": "/images/node.webp" },
+      { "name": "Mongodb", "icon": "/images/mongodb.webp" },
+      { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }],
+      "github":"https://github.com/2312-1972/ArgentBank-website",
       "future": false
     },
     { "id": "PJ08" ,
       "title": "Aux ciseaux de shirley",
-      "image": "/images/shirley.webp",
+      "image": "/images/front/shirley.webp",
       "description": "Description du projet 7.",
-      "technologies": ["Angular", "SCSS", "Express"],
+      "technologies": [""],
+      "github":"",
       "future": true
     },
     { "id": "PJ09" ,
       "title": "Abejorro DronePilot",
-      "image": "/images/abejorro.webp",
+      "image": "/images/front/abejorro.webp",
       "description": "Description du projet 8.",
-      "technologies": ["Angular", "SCSS", "Express"],
+      "technologies": [""],
+      "github":"",
       "future": true
     },
     { "id": "PJ10" ,
       "title": "Vivi Parrot Lifestyle",
-      "image": "/images/vivi.webp",
+      "image": "/images/front/vivi.webp",
       "description": "Description du projet 9.",
-      "technologies": ["Angular", "SCSS", "Express"],
+      "technologies": [""],
+      "github":"",
       "future": true
     }
 
