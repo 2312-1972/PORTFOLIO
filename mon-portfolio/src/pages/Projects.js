@@ -31,7 +31,7 @@ function Project() {
                 ))}
               </ul>
               <a href={project.github} target="_blank" rel="noopener noreferrer">
-                <img src="/images/github-icon.png" alt="GitHub" className="github-icon" />
+                <img src="/images/2447911.webp" alt="GitHub" className="github-icon" style={{width:'50px',height:'50px',paddingTop:'30px'}}/>
               </a>
             </div>
           </div>

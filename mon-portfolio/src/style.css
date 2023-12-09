@@ -399,13 +399,18 @@ nav a:hover {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
 }
 
 .card-technologies li {
-  margin-bottom: 5px;
+  margin-bottom: 5px;  
 }
 
-
+.tech-icon {
+  max-width: 30px; /* ajustez la taille maximale selon vos besoins */
+  max-height: 30px;
+  
+}
 
 /* Composant CONTACT */
 .back-contact {
