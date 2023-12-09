@@ -1,6 +1,7 @@
 {
   "projects": [
-    { "id": "PJ01" ,
+    { "id": "PJ00" ,
+      "logo":"/images/logos/booki-logo.webp",
       "title": "Booki",
       "image": "/images/front/booki.webp",
       "description": "site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix ",
@@ -12,10 +13,11 @@
       "github":"https://github.com/2312-1972/booki-starter-code-master",
       "future": false
     },
-    {
+    { "id": "PJ01",
+      "logo":"/images/logos/ohmyfood-logo.webp",
       "title": "Ohmyfood ",
       "image": "/images/front/ohmyfood.webp",
-      "description": "  Site  qui répertorie les menus de restaurants gastronomiques",
+      "description": "  Ohmyfood est un site implémenté en “mobile first” qui propose les menus de restaurants gastronomiques en pré order. Ux designer  a mis à ma disposition des maquettes via Figma . La mission était de  créer une application responsive qui s'adapterait aux différentes tailles d'écran et de développer des animations avec des Keyframes rendant l'expérience utilisateurs plus attrayant.",
       "technologies": [
       { "name": "Figma", "icon": "/images/figma.webp" },
       { "name": "HTML5", "icon": "/images/html.webp" },
@@ -26,6 +28,7 @@
       "future": false
     },
     { "id": "PJ02" ,
+    "logo":"/images/logos/sophiebluel.logo.webp",
       "title": "Sophie BLUEL ",
       "image": " /images/front/bar-lullaby-paris.webp",
       "description": "Conception du site portfolio d’une architecte d’intérieur.",
@@ -39,6 +42,7 @@
       "future": false
     },
     { "id": "PJ03" ,
+    "logo":"/images/logos/.webp",
       "title": "Qwenta ",
       "image": " /images/front/qwenta.webp",
       "description": "Site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement.",
@@ -51,6 +55,7 @@
       "future": false
     },
     { "id": "PJ04" ,
+    "logo":"/images/logos/kasa-logo.webp",
       "title": "Kasa",
       "image": "/images/front/enzo.webp",
       "description": "Site de location d’appartements entre particuliers",
@@ -62,6 +67,7 @@
       "future": false
     },
     { "id": "PJ05" ,
+    "logo":"/images/logos/ninacarducci.webp",
       "title": "Nina CARDUCCI",
       "image": "/images/front/nina.webp",
       "description": "Optimisation du référencement d'un site de photographe",
@@ -75,6 +81,7 @@
        "future": false
     },
     { "id": "PJ06" ,
+    "logo":"/images/logos/77events.webp",
       "title": "77 Events",
       "image": "/images/front/724events2.webp",
       "description": "Débuggez le site d'une agence d'événementiel",
@@ -88,6 +95,7 @@
       "future": false
     },
     { "id": "PJ07" ,
+    "logo":"/images/logos/argentbank.webp",
       "title": "ArgentBank",
       "image": "/images/front/bank-tree.webp",
       "description": "Implémentez le front-end d'une application bancaire",
