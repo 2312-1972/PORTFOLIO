@@ -42,14 +42,14 @@
       "future": false
     },
     { "id": "PJ03" ,
-    "logo":"/images/logos/.webp",
+    "logo":"/images/logos/qwenta.webp",
       "title": "Qwenta ",
       "image": " /images/front/qwenta.webp",
       "description": "Site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement.",
       "technologies": [
       {"name": "Pearltress", "icon": "/images/pearltress.webp" },
       { "name": "Trello", "icon": "/images/trello.webp" },
-      { "name": "Agile", "icon": "/images/agile.webp" }
+      { "name": "Agile", "icon": "/images/agile.avif" }
      ],
       "github":"",
       "future": false
@@ -70,7 +70,7 @@
     "logo":"/images/logos/ninacarducci.webp",
       "title": "Nina CARDUCCI",
       "image": "/images/front/nina.webp",
-      "description": "Optimisation du référencement d'un site de photographe",
+      "description": "Nina Carduccci  photographe Bordelaise, Optimisation du  référencement de son site après audit Lighthouse soit la performance, l'accessibilité, les bonnes pratiques et enfin le SEO. Revue de l'ensemble du  code HTML, CSS, Javascript avec minification des fichiers volumineux.  utilisation de balises meta de Schéma.org et google Rich Snippet pour un référencement optimum.",
       "technologies": [
         { "name": "SEO", "icon": "/images/SEO.webp" },
         { "name": "Lighthouse", "icon": "/images/lighthouse.webp" },
@@ -98,13 +98,13 @@
     "logo":"/images/logos/argentbank.webp",
       "title": "ArgentBank",
       "image": "/images/front/bank-tree.webp",
-      "description": "Implémentez le front-end d'une application bancaire",
+      "description": " Néo banque, évoluant vers une appli react, utilisation du back-end avec MongoDB, NodeJs et d'une API, puis Redux pour la propagation de l'état dans l'appli pour authentification des utilisateurs et modification de leur pseudo.Préparation des futures routes API pour récupération et modification des transactions .",
       "technologies": [ 
       { "name": "API", "icon": "/images/API.webp" },
       { "name": "React", "icon": "/images/react.webp" },
       { "name": "Node", "icon": "/images/node.webp" },
-      { "name": "Mongodb", "icon": "/images/mongodb.webp" },
-      { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }],
+      { "name": "Mongodb", "icon": "/images/mongodb.webp" }
+      ],
       "github":"https://github.com/2312-1972/ArgentBank-website",
       "future": false
     },
