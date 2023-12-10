@@ -99,7 +99,7 @@
       "image": "/images/front/bank-tree.webp",
       "description": " Néo banque, évoluant vers une appli react, utilisation du back-end avec MongoDB, NodeJs et d'une API, puis Redux pour la propagation de l'état dans l'appli pour authentification des utilisateurs et modification de leur pseudo.Préparation des futures routes API pour récupération et modification des transactions .",
       "technologies": [ 
-      { "name": "API", "icon": "/images/API.webp" },
+      { "name": "Redux", "icon": "/images/redux.webp" },
       { "name": "React", "icon": "/images/react.webp" },
       { "name": "Node", "icon": "/images/node.webp" },
       { "name": "Mongodb", "icon": "/images/mongodb.webp" }
@@ -111,8 +111,12 @@
     "logo":"/images/logos/shirley2.webp",
       "title": "Aux ciseaux de shirley",
       "image": "/images/front/shirley.webp",
-      "description": "Site vitrine et single page d'une coiffeuse mixte a domicile",
-      "technologies": [""],
+      "description": "Site vitrine et single page d'une coiffeuse mixte a domicile, en cours de création ",
+      "technologies": [
+        { "name": "React", "icon": "/images/react.webp" },
+        { "name": "Sass", "icon": "/images/sass.webp" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
+      ],
       "github":"",
       "future": true
     },
@@ -120,8 +124,13 @@
     "logo":"/images/logos/drone.webp",
       "title": "Abejorro 11 DronePilot",
       "image": "/images/front/abejorro.webp",
-      "description": "Site commercial d'un pilote de drône ",
-      "technologies": [""],
+      "description": "Démarrage du projet du Site commercial d'un pilote de drône mi janvier 2024 ",
+      "technologies": [
+        { "name": "React", "icon": "/images/react.webp" },
+        { "name": "Sass", "icon": "/images/sass.webp" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
+        { "name": "Redux", "icon": "/images/redux.webp" }
+      ],
       "github":"",
       "future": true
     },
@@ -129,8 +138,13 @@
     "logo":"/images/logos/vivi.webp",
       "title": "Vivi Parrot Lifestyle",
       "image": "/images/front/vivi.webp",
-      "description": "Bien être et manger sainement ",
-      "technologies": [""],
+      "description": "Démarrage du projet en janvier 2024 d'un site dédié au 'Bien être et vivre sainement' ",
+      "technologies": [
+        { "name": "React", "icon": "/images/react.webp" },
+        { "name": "Sass", "icon": "/images/sass.webp" },
+        { "name": "Redux", "icon": "/images/redux.webp" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
+       ],
       "github":"",
       "future": true
     }
