@@ -108,6 +108,7 @@
       "future": false
     },
     { "id": "PJ08" ,
+    "logo":"/images/logos/shirley2.webp",
       "title": "Aux ciseaux de shirley",
       "image": "/images/front/shirley.webp",
       "description": "Site vitrine et single page d'une coiffeuse mixte a domicile",
@@ -116,7 +117,8 @@
       "future": true
     },
     { "id": "PJ09" ,
-      "title": "Abejorro DronePilot",
+    "logo":"/images/logos/drone.webp",
+      "title": "Abejorro 11 DronePilot",
       "image": "/images/front/abejorro.webp",
       "description": "Site commercial d'un pilote de drône ",
       "technologies": [""],
@@ -124,9 +126,10 @@
       "future": true
     },
     { "id": "PJ10" ,
+    "logo":"/images/logos/vivi.webp",
       "title": "Vivi Parrot Lifestyle",
       "image": "/images/front/vivi.webp",
-      "description": "Bien être et manger  ",
+      "description": "Bien être et manger sainement ",
       "technologies": [""],
       "github":"",
       "future": true
