@@ -8,7 +8,7 @@ function Project() {
   return (
     <div className="back-contact">
       <h3
-        className="letter-space contact-text p1"
+        className="letter-space contact-text "
         style={{
           border: "1px solid white",
           padding: "5px",

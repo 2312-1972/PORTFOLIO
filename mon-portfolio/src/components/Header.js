@@ -80,7 +80,7 @@ const Header = () => {
       <h3 className='h3-animation'>
         {getTitleAndText().pageTitle}
       </h3>
-      <h3 className='h3-animation'>{typedText}</h3>
+      <h3 className='h-animation'>{typedText}</h3>
     </div>
   </header>
   );

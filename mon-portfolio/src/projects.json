@@ -6,9 +6,9 @@
       "image": "/images/front/booki.webp",
       "description": "Site Internet  permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.  Respect des maquettes figma fournies par l'UX designer, mon rôle était d'intégrer  l'interface Front end du site en HTML et CSS. ",
       "technologies": [
-        { "name": "HTML5", "icon": "/images/html.webp" },
-        { "name": "CSS3", "icon": "/images/css.webp" },
-        { "name": "git", "icon": "/images/git.webp" }
+        { "name": "HTML5", "icon": "/images/html.webp", "progress": 80 },
+        { "name": "CSS3", "icon": "/images/css.webp", "progress": 70 },
+        { "name": "git", "icon": "/images/git.webp", "progress": 70 }
       ],
       "github":"https://github.com/2312-1972/booki-starter-code-master",
       "future": false
@@ -45,10 +45,10 @@
     "logo":"/images/logos/qwenta.webp",
       "title": "Qwenta ",
       "image": " /images/front/qwenta.webp",
-      "description": "Site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement.",
+      "description": "Gestion de projet 'Agile' pour la diffussion de menus de restaurant en ligne  avec mise en place de veille technique et établissement du Kanban pour une équipe de 4 personnes sur trello.",
       "technologies": [
-      {"name": "Pearltress", "icon": "/images/pearltress.webp" },
-      { "name": "Trello", "icon": "/images/trello.webp" },
+        { "name": "Trello", "icon": "/images/trello.webp" },
+        {"name": "Pearltress", "icon": "/images/pearltress.webp" },
       { "name": "Agile", "icon": "/images/agile.avif" }
      ],
       "github":"",
@@ -149,5 +149,31 @@
       "future": true
     }
 
-  ]
+  ],
+  "technology": {
+    "Languages": [
+      { "name": "HTML5", "icon": "/images/html.webp", "progress": 90 },
+      { "name": "CSS3", "icon": "/images/css.webp", "progress": 75 },
+      { "name": "Git", "icon": "/images/git.webp", "progress": 75 },
+      { "name": "Figma", "icon": "/images/figma.webp", "progress": 80 },
+      { "name": "SASS", "icon": "/images/sass.webp", "progress": 75 },
+      { "name": "Javascript", "icon": "/images/javascript.webp", "progress": 75 },
+      { "name": "NodeJS", "icon": "/images/node.webp", "progress": 80 },
+      { "name": "React", "icon": "/images/react.webp", "progress": 80 },
+      { "name": "Jest", "icon": "/images/jest.webp", "progress": 80 },
+      { "name": "Redux", "icon": "/images/redux.webp", "progress": 70 },
+      { "name": "MongoDB", "icon": "/images/mongodb.webp", "progress": 40 }
+    ],
+    "Transverse": [
+      { "name": "SEO", "icon": "/images/SEO.webp", "progress": 95 },
+      { "name": "Devtools", "icon": "/images/devtools.png", "progress": 95 },
+      { "name": "Lighthouse", "icon": "/images/lighthouse.webp", "progress": 95 },
+      { "name": "Trello", "icon": "/images/trello.webp", "progress": 95 },
+      { "name": "Agile", "icon": "/images/agile.avif", "progress": 95 },
+      { "name": "Pearltress", "icon": "/images/pearltress.webp", "progress": 95 },
+      { "name": "API  Restful", "icon": "/images/API.webp", "progress": 95 },
+      { "name": "Gtmetrix", "icon": "/images/Gtmetrix.webp", "progress": 95 },
+      { "name": "Canva", "icon": "/images/canva-logo.webp", "progress": 95 }
+    ]
+  }
 }

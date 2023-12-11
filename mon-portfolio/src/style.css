@@ -72,7 +72,7 @@ a:hover {
   margin-right: 20px;
 }
 
-.h3-animation {
+.h-animation {
   font-family: "Dancing Script";
   font-size: 40px;
   color: white;
@@ -321,7 +321,49 @@ nav a:hover {
 /* Composant SLIDER */
 
 /* Composant SKILLS */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.skill-item {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7;
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.skill-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.progress-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+progress {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+span {
+  font-weight: bold;
+}
 /* Composant PROJECTS */
 .projects-container {
   display: flex;
@@ -389,10 +431,11 @@ nav a:hover {
 
 .card-description {
   font-size: 14px;
+  letter-spacing: 1px;
   text-align: center;
-  background-color: black;
-  color: #4fc3f7;
-  font-weight: 600;
+ 
+  color:white;
+  font-weight: 300;
   border-radius: 5px;
   margin-bottom: 10px;
   /* box-shadow: 0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7; */

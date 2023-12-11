@@ -12,8 +12,7 @@ const Footer = () => {
           <span className="sr-only">GitHub</span>
           <FaGithub />
         </Link>
-
-        <Link to={'https://www.linkedin.com/in/frederic-t-283ab24b/'} aria-label="LinkedIn" style={{ fontSize: '26px' }}>
+       <Link to={'https://www.linkedin.com/in/frederic-t-283ab24b/'} aria-label="LinkedIn" style={{ fontSize: '26px' }}>
           <span className="sr-only">LinkedIn</span>
           <FaLinkedin />
         </Link>
@@ -27,7 +26,7 @@ const Footer = () => {
         </Link>
       </div>
 
-      <h4 style={{ fontSize: '14px', color: 'white', width: 'auto',fontFamily:'oxygen'}}>©2023 Frédéric TOPPAN, Tous droits réservés </h4>
+      <h4 style={{ fontSize: '14px', color: 'white', width: 'auto',fontFamily:'oxygen',fontWeight:'300'}}>©2023 Frédéric TOPPAN, Tous droits réservés </h4>
     </footer>
   );
 };
