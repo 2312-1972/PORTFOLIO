@@ -5,17 +5,17 @@ import SkillsData from "../projects.json";
 const Skill = () => {
   const renderSkillsCategory = (category) => {
     return (
-      <div key={category}>
-        <h3>{category}</h3>
+      <div key={category} style={{textAlign:'center'}}>
+        <h3 className="skills-h3">{category}</h3>
         <div className="skills-container">
           {SkillsData.technology[category].map((skill) => (
             <div key={skill.name} className="skill-item">
               <img src={skill.icon} alt={skill.name} className="skill-icon" />
               <div className="skill-details">
-                <span>{skill.name}</span>
+                <span style={{color:'white',letterSpacing: '2px',fontWeight:'300' }}>{skill.name}</span>
                 <div className="progress-container">
                   <progress value={skill.progress} max={100}></progress>
-                  <span>{skill.progress}%</span>
+                  <span style={{color:'white',letterSpacing: '2px',fontWeight:'300' }}>{skill.progress}%</span>
                 </div>
               </div>
             </div>

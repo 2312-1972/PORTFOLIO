@@ -45,7 +45,7 @@
     "logo":"/images/logos/qwenta.webp",
       "title": "Qwenta ",
       "image": " /images/front/qwenta.webp",
-      "description": "Gestion de projet 'Agile' pour la diffussion de menus de restaurant en ligne  avec mise en place de veille technique et établissement du Kanban pour une équipe de 4 personnes sur trello.",
+      "description": "Gestion de projet 'Agile' pour la diffussion de menus de restaurant en ligne  avec la mise en place d'une veille technique et l'établissement du Kanban pour une équipe de 4 personnes sur trello.",
       "technologies": [
         { "name": "Trello", "icon": "/images/trello.webp" },
         {"name": "Pearltress", "icon": "/images/pearltress.webp" },
@@ -97,7 +97,7 @@
     "logo":"/images/logos/argentbank.webp",
       "title": "ArgentBank",
       "image": "/images/front/bank-tree.webp",
-      "description": " Néo banque, évoluant vers une appli react, utilisation du back-end avec MongoDB, NodeJs et d'une API, puis Redux pour la propagation de l'état dans l'appli pour authentification des utilisateurs et modification de leur pseudo.Préparation des futures routes API pour récupération et modification des transactions .",
+      "description": " Néo banque, évoluant vers une appli react, utilisation du back-end avec MongoDB, NodeJs une API, puis Redux pour la propagation de l'état dans l'appli pour authentification des utilisateurs et modification de leur pseudo.Préparation des futures routes API pour récupération et modification des transactions .",
       "technologies": [ 
       { "name": "Redux", "icon": "/images/redux.webp" },
       { "name": "React", "icon": "/images/react.webp" },
