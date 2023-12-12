@@ -12,7 +12,7 @@ const NavbarHeader = () => {
     <nav >
       <div>
         <Link
-          className={isActiveLink('/') ? 'active-link' : ''}
+          className={isActiveLink('/') ? 'active-link' : ''} 
           style={{
             fontSize: isActiveLink('/') ? '22px' : '18px',
             color: isActiveLink('/') ? '#65c8f7' : 'black',

@@ -6,9 +6,9 @@ function Project() {
   const projects = projectsData.projects;
 
   return (
-    <div className="back-contact">
+    <div className="back-contact ">
       <h3
-        className="letter-space contact-text "
+        className="letter-space contact-text intro-resp"
         style={{
           border: "1px solid white",
           padding: "5px",
@@ -54,6 +54,7 @@ function Project() {
                   </li>
                 ))}
               </ul>
+              <div style={{display:'flex', gap:'20px'}}>
               <a
                 href={project.github}
                 target="_blank"
@@ -62,10 +63,21 @@ function Project() {
                 <img
                   src="/images/2447911.webp"
                   alt="GitHub"
-                  className="github-icon"
-                  style={{ width: "50px", height: "50px", paddingTop: "30px" }}
+                  className="github-link"
+                  />
+                  </a>
+                  <a
+                  href={project.site}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >
+                  <img
+                  src="/images/link.png"
+                  alt="Link website"
+                  className="website-link"
                 />
-              </a>
+                </a>
+              </div>
             </div>
           </div>
         ))}
@@ -75,3 +87,6 @@ function Project() {
 }
 
 export default Project;
+                  
+               
+              

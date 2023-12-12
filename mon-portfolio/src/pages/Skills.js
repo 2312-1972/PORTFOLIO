@@ -13,10 +13,10 @@ const Skill = () => {
               <img src={skill.icon} alt={skill.name} className="skill-icon" />
               <div className="skill-details">
                 <span style={{color:'white',letterSpacing: '2px',fontWeight:'300' }}>{skill.name}</span>
-                <div className="progress-container">
+                {/* <div className="progress-container">
                   <progress value={skill.progress} max={100}></progress>
                   <span style={{color:'white',letterSpacing: '2px',fontWeight:'300' }}>{skill.progress}%</span>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
@@ -28,7 +28,7 @@ const Skill = () => {
   return (
     <div className="back-contact">
       <h3
-        className="letter-space contact-text"
+        className="letter-space contact-text intro-resp"
         style={{
           border: "1px solid white",
           padding: "5px",
