@@ -78,11 +78,10 @@ a:hover {
   color: white;
   width: auto;
   text-shadow: 0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7;
-  /* text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 1); */
+  
 
   font-weight: bold;
-  /* border-bottom-style: outset; */
-  margin: 0;
+   margin: 0;
   overflow: hidden;
   white-space: nowrap;
   transition: border-right 0.5s linear;
@@ -182,7 +181,7 @@ nav a:hover {
 
 /* Composant INTRODUCTION */
 .back-intro {
-  background-color: #0a0a0a;
+  background: linear-gradient(to bottom, #000000, #808080);
   padding: 80px;
   display: flex;
   flex-direction: column;
@@ -476,7 +475,7 @@ span {
 }
 /* Composant CONTACT */
 .back-contact {
-  background-color: #0a0a0a;
+  background: linear-gradient(to bottom, #000000, #808080);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -484,6 +483,7 @@ span {
   padding: 80px;
 }
 .contact-text {
+  display: flex;
   width: 1000px;
   border: none;
 }
@@ -542,14 +542,34 @@ span {
 }
 
 @media screen and (max-width: 849px) {
-  .header {
-    justify-content: center;
-  }
-  .h3-animation {
+
+  .menu {
     display: none;
   }
   .logo-container {
+    margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 40px; /* Ajoutez un espace entre le logo et le texte */
+    margin-left: 40px; 
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+  }
+  .circular-image {
+    width: 200px;
+    height: 200px;
+    margin-left: 0px;
+  }
+
+  .intro-resp{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .intro-contact{
+    width: auto;
+  }
+  .letter-space{
+    letter-spacing: 1px;
   }
 }

@@ -16,12 +16,12 @@ const Introduction = () => {
           style={{ padding: "4px" }}
         />
       </span>
-      {/* <h2 className='h-intro' style={{paddingTop:'10px'}}>Présentation </h2> */}
+      
       <OrbAnimation />
-      <div>
+      <div className="intro-resp">
         <p
           className="letter-space intro-contact p1"
-          style={{ marginTop: "200px" }}
+          style={{ marginTop: "100px" }}
         >
           Je m'appelle
           <span
