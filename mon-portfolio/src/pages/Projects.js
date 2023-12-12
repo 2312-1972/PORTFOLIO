@@ -8,14 +8,8 @@ function Project() {
   return (
     <div className="back-contact ">
       <h3
-        className="letter-space contact-text intro-resp"
-        style={{
-          border: "1px solid white",
-          padding: "5px",
-          textAlign: "center",
-          borderRadius: "5px",
-          boxShadow: "0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7",
-        }}
+        className="letter-space contact-text intro-resp skills-h3 "
+       
       >
         J'ai eu le privilège de travailler sur une variété de projets
         stimulants, allant de sites web réactifs à des applications

@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 
 .body {
-  
   font-family: "Roboto", "Open Sans", sans-serif;
   background-color: white;
   margin: 0;
@@ -78,10 +77,9 @@ a:hover {
   color: white;
   width: auto;
   text-shadow: 0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7;
-  
 
   font-weight: bold;
-   margin: 0;
+  margin: 0;
   overflow: hidden;
   white-space: nowrap;
   transition: border-right 0.5s linear;
@@ -317,8 +315,6 @@ nav a:hover {
   border-radius: 50%;
 }
 
-
-
 /* Composant SKILLS */
 .skills-container {
   display: flex;
@@ -335,12 +331,13 @@ nav a:hover {
   border-radius: 5px;
   box-shadow: 0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7;
 }
-.skills-h3{
+.skills-h3 {
   width: 100px;
   border-radius: 5px;
-  border: 1px solid  white;
-  box-shadow:0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7 ;
+  border: 1px solid white;
+  box-shadow: 0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7;
   padding: 5px;
+  text-align: center;
 }
 .skill-icon {
   width: 120px;
@@ -417,7 +414,7 @@ span {
   transform: rotateY(180deg);
   box-shadow: 0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7;
   background: linear-gradient(to bottom, #000000, #808080);
-  }
+}
 
 .card-image {
   width: 100%;
@@ -438,7 +435,7 @@ span {
   font-size: 14px;
   letter-spacing: 1px;
   text-align: center;
-  color:white;
+  color: white;
   font-weight: 300;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -471,16 +468,16 @@ span {
   border: 1px solid rgb(8, 8, 8);
   padding: 5px;
   border-radius: 5px;
-  background:RGB(0, 191, 255) ;
+  background: RGB(0, 191, 255);
   left: 180px;
 }
 
-.github-link{
+.github-link {
   width: 50px;
   height: 50px;
   padding-top: 20px;
 }
-.website-link{
+.website-link {
   width: 30px;
   height: 30px;
   padding-top: 30px;
@@ -494,7 +491,9 @@ span {
   align-items: center;
   color: white;
   padding: 80px;
+  border: 1px solid white;
 }
+
 .contact-text {
   display: flex;
   width: 1000px;
@@ -543,7 +542,9 @@ span {
     width: auto;
     gap: 100px;
   }
-
+  .intro-resp {
+    width: auto;
+  }
   .circular-image {
     width: 400px;
     height: 400px;
@@ -555,14 +556,13 @@ span {
 }
 /* ecran apartir de 849px type petites tablettes */
 @media screen and (max-width: 849px) {
-
   .menu {
     display: none;
   }
   .logo-container {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 40px; 
+    margin-left: 40px;
   }
   .logo {
     width: 100%;
@@ -574,15 +574,14 @@ span {
     margin-left: 0px;
   }
 
-  .intro-resp{
+  .intro-resp {
     display: flex;
     flex-direction: column;
+  }
+  .intro-contact {
     width: auto;
   }
-  .intro-contact{
-    width: auto;
-  }
-  .letter-space{
+  .letter-space {
     letter-spacing: 1px;
   }
   /* ecran apartir de 686px type smartphone + smartphone large screen */
@@ -590,15 +589,23 @@ span {
     nav {
       width: auto;
       gap: 30px;
-      flex-wrap:  wrap;
-      justify-content:space-between;
+      flex-wrap: wrap;
+      justify-content: space-between;
       border: 1px solid black;
-      
     }
-   form {
-    width: auto;
-    height: auto;
-   }
-
+    form {
+      width: 80%;
+      padding: 0;
+    }
+    .back-contact {
+      padding: 0;
+      border: none;
+    }
+    .skills-h3 {
+      margin: 8px;
+    }
+    .skills-container {
+      justify-content: center;
+    }
   }
 }

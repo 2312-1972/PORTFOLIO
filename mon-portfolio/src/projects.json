@@ -163,28 +163,28 @@
   ],
   "technology": {
     "Languages": [
-      { "name": "HTML5", "icon": "/images/html.webp", "progress": 90 },
-      { "name": "CSS3", "icon": "/images/css.webp", "progress": 75 },
-      { "name": "Git", "icon": "/images/git.webp", "progress": 75 },
-      { "name": "Figma", "icon": "/images/figma.webp", "progress": 80 },
-      { "name": "SASS", "icon": "/images/sass.webp", "progress": 75 },
-      { "name": "Javascript", "icon": "/images/javascript.webp", "progress": 75 },
-      { "name": "NodeJS", "icon": "/images/node.webp", "progress": 80 },
-      { "name": "React", "icon": "/images/react.webp", "progress": 80 },
-      { "name": "Jest", "icon": "/images/jest.webp", "progress": 80 },
-      { "name": "Redux", "icon": "/images/redux.webp", "progress": 70 },
-      { "name": "MongoDB", "icon": "/images/mongodb.webp", "progress": 40 }
+      { "name": "HTML5", "icon": "/images/html.webp"},
+      { "name": "CSS3", "icon": "/images/css.webp" },
+      { "name": "Git", "icon": "/images/git.webp"},
+      { "name": "Figma", "icon": "/images/figma.webp" },
+      { "name": "SASS", "icon": "/images/sass.webp"},
+      { "name": "Javascript", "icon": "/images/javascript.webp"},
+      { "name": "NodeJS", "icon": "/images/node.webp" },
+      { "name": "React", "icon": "/images/react.webp" },
+      { "name": "Jest", "icon": "/images/jest.webp" },
+      { "name": "Redux", "icon": "/images/redux.webp"},
+      { "name": "MongoDB", "icon": "/images/mongodb.webp"}
     ],
     "Transverse": [
-      { "name": "SEO", "icon": "/images/SEO.webp", "progress": 95 },
-      { "name": "Devtools", "icon": "/images/devtools.png", "progress": 95 },
-      { "name": "Lighthouse", "icon": "/images/lighthouse.webp", "progress": 95 },
-      { "name": "Trello", "icon": "/images/trello.webp", "progress": 95 },
-      { "name": "Agile", "icon": "/images/agile.avif", "progress": 95 },
-      { "name": "Pearltress", "icon": "/images/pearltress.webp", "progress": 95 },
-      { "name": "API  Restful", "icon": "/images/API.webp", "progress": 95 },
-      { "name": "Gtmetrix", "icon": "/images/Gtmetrix.webp", "progress": 95 },
-      { "name": "Canva", "icon": "/images/canva-logo.webp", "progress": 95 }
+      { "name": "SEO", "icon": "/images/SEO.webp" },
+      { "name": "Devtools", "icon": "/images/devtools.png" },
+      { "name": "Lighthouse", "icon": "/images/lighthouse.webp" },
+      { "name": "Trello", "icon": "/images/trello.webp" },
+      { "name": "Agile", "icon": "/images/agile.avif" },
+      { "name": "Pearltress", "icon": "/images/pearltress.webp" },
+      { "name": "API  Restful", "icon": "/images/API.webp" },
+      { "name": "Gtmetrix", "icon": "/images/Gtmetrix.webp" },
+      { "name": "Canva", "icon": "/images/canva-logo.webp" }
     ]
   }
 }

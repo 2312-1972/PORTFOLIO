@@ -11,8 +11,8 @@ const Formulaire = () => {
 
   return (
     <form
-      className="back-intro"
-      style={{ marginBottom: "30px", borderRadius: "10px", border:' 1px solid white' }}
+      className="back-contact"
+      style={{ marginBottom: "30px", borderRadius: "10px",  }}
       onSubmit={handleSubmit}
     >
       <div className="segment ">
