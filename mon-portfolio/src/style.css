@@ -162,19 +162,20 @@ nav {
   justify-content: flex-start;
   padding: 20px;
   width: auto;
-  background-color: rgb(247, 245, 245);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7));
+ 
 }
 
 nav a {
-  margin-top: 10px;
+  margin-top:5px;
   text-decoration: none;
 }
 
 nav a:hover {
-  border: 2px solid grey;
+  border: 2px solid rgb(15, 14, 14);
   padding-top: 5px;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
 }
 
 /* Composant INTRODUCTION */
@@ -581,6 +582,7 @@ span {
   }
   .intro-contact {
     width: auto;
+    text-align: center;
   }
   .letter-space {
     letter-spacing: 1px;

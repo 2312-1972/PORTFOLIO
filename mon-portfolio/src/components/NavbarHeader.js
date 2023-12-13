@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import '../style.css';
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import "../style.css";
 
 const NavbarHeader = () => {
   const location = useLocation();
@@ -9,15 +9,17 @@ const NavbarHeader = () => {
   const isActiveLink = (pathname) => location.pathname === pathname;
 
   return (
-    <nav >
+    <nav>
       <div>
         <Link
-          className={isActiveLink('/') ? 'active-link' : ''} 
+          className={isActiveLink("/") ? "active-link" : ""}
           style={{
-            fontSize: isActiveLink('/') ? '22px' : '18px',
-            color: isActiveLink('/') ? '#65c8f7' : 'black',
-            textShadow: isActiveLink('/') ? '' : '',
-            fontWeight: isActiveLink('/') ? 'bold' : 'bold',
+            fontSize: isActiveLink("/") ? "22px" : "18px",
+            color: isActiveLink("/") ? "black" : "black",
+            textShadow: isActiveLink("/")
+              ? "0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7"
+              : "2px 2px 4px rgba(0, 0, 0, 0.5)",
+            fontWeight: isActiveLink("/") ? "bold" : "bold",
           }}
           to="/"
         >
@@ -26,12 +28,14 @@ const NavbarHeader = () => {
       </div>
       <div>
         <Link
-          className={isActiveLink('/competences') ? 'active-link' : ''}
+          className={isActiveLink("/competences") ? "active-link" : ""}
           style={{
-            fontSize: isActiveLink('/competences') ? '22px' : '18px',
-            color: isActiveLink('/competences') ? '#65c8f7' : 'black',
-            textShadow: isActiveLink('/competences') ? '' : '',
-            fontWeight: isActiveLink('/competences') ? 'bold' : 'bold',
+            fontSize: isActiveLink("/competences") ? "22px" : "18px",
+            color: isActiveLink("/competences") ? "black" : "black",
+            textShadow: isActiveLink("/competences")
+              ? "0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7"
+              : "2px 2px 4px rgba(0, 0, 0, 0.5)",
+            fontWeight: isActiveLink("/competences") ? "bold" : "bold",
           }}
           to="/competences"
         >
@@ -40,27 +44,31 @@ const NavbarHeader = () => {
       </div>
       <div>
         <Link
-          className={isActiveLink('/projects') ? 'active-link' : ''}
+          className={isActiveLink("/projects") ? "active-link" : ""}
           style={{
-            fontSize: isActiveLink('/projects') ? '22px' : '18px',
-            color: isActiveLink('/projects') ? '#65c8f7' : 'black',
-            textShadow: isActiveLink('/projects') ? '' : '',
-            fontWeight: isActiveLink('/projects') ? 'bold' : 'bold',
+            fontSize: isActiveLink("/projects") ? "22px" : "18px",
+            color: isActiveLink("/projects") ? "black" : "black",
+            textShadow: isActiveLink("/projects")
+              ? "0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7"
+              : "2px 2px 4px rgba(0, 0, 0, 0.5)",
+            fontWeight: isActiveLink("/projects") ? "bold" : "bold",
           }}
           to="/projects"
         >
           Réalisations
         </Link>
       </div>
-     
+
       <div>
         <Link
-          className={isActiveLink('/contact') ? 'active-link' : ''}
+          className={isActiveLink("/contact") ? "active-link" : ""}
           style={{
-            fontSize: isActiveLink('/contact') ? '22px' : '18px',
-            color: isActiveLink('/contact') ? '#65c8f7' : 'black',
-            textShadow: isActiveLink('/contact') ? '' : '',
-            fontWeight: isActiveLink('/contact') ? 'bold' : 'bold',
+            fontSize: isActiveLink("/contact") ? "22px" : "18px",
+            color: isActiveLink("/contact") ? "black" : "black",
+            textShadow: isActiveLink("/contact")
+              ? "0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7"
+              : "2px 2px 4px rgba(0, 0, 0, 0.5)",
+            fontWeight: isActiveLink("/contact") ? "bold" : "bold",
           }}
           to="/contact"
         >
