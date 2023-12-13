@@ -26,7 +26,7 @@
       { "name": "Sass", "icon": "/images/sass.webp" }
     ],
       "github":"https://github.com/2312-1972/ohmyfood",
-      "site":"ohmyfood-34.netlify.app",
+      "site":"https://ohmyfood-34.netlify.app",
       "future": false
     },
     { "id": "PJ02" ,
@@ -68,7 +68,7 @@
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
       ],
       "github":"https://github.com/2312-1972/kasa",
-      "site":"kasa-34.netlify.app",
+      "site":"https://kasa-34.netlify.app",
       "future": false
     },
     { "id": "PJ05" ,
@@ -97,7 +97,7 @@
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
       ],
       "github":"https://github.com/2312-1972/77events-Debuggez-une-application-React.JS",
-      "site":"77events-34.netlify.app",
+      "site":"https://77events-34.netlify.app",
       "future": false
     },
     { "id": "PJ07" ,
