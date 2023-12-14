@@ -1,27 +1,36 @@
-import React from 'react';
-import { BrowserRouter as Router, Route,Routes} from 'react-router-dom';
-import './style.css';
-import HomePage from "./pages/Home";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-import Header from "./components/Header"; 
-import Footer from './components/Footer';
-import NavbarHeader from './components/NavbarHeader';
-import Skill from './pages/Skills';
+import React, { lazy, Suspense, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+const HomePage = lazy(() => import('./pages/Home'));
+const Projects = lazy(() => import('./pages/Projects'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Header = lazy(() => import('./components/Header'));
+const Footer = lazy(() => import('./components/Footer'));
+const NavbarHeader = lazy(() => import('./components/NavbarHeader'));
+const Skill = lazy(() => import('./pages/Skills'));
+
+
+
 
 function App() {
+  useEffect(() => {
+    
+  }, []);
+
   return (
     <Router>
       <div className='body'>
-        <Header /> 
-        <NavbarHeader/>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/competences" element={<Skill />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer />
+        <Suspense fallback={<div className='loading-app' ><h2 className='loading-h2' >Loading...</h2></div>}>
+          <Header />
+          <NavbarHeader/>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/competences" element={<Skill />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Footer />
+        </Suspense>
       </div>
     </Router>
   );

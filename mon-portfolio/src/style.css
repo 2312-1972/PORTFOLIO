@@ -40,6 +40,23 @@ a:hover {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+/* loading app */
+.loading-app{
+  text-align: center;
+  
+   height: 300px;
+  width: auto;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7));
+}
+.loading-h2{
+  padding-top: 300px;
+  text-shadow:  2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: black;
+  font-weight: bold;
+  font-family:"Poppins" ;
+  font-size: 50px;
+}
+
 /* section HEADER */
 .header {
   padding: 20px;
@@ -290,7 +307,7 @@ nav a:hover {
   }
 }
 
-.circle-container {
+/* .circle-container {
   width: 140px;
   height: 140px;
   overflow: hidden;
@@ -299,7 +316,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .circular-image {
   width: 700px;
