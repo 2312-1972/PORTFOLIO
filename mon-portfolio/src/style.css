@@ -27,8 +27,7 @@ a {
 
 a:hover {
   color: #4fc3f7;
-  /* text-shadow: 0 0 5px #4fc3f7, 0 0 20px #65c8f7, 0 0 30px #4fc3f7; */
-  font-weight: bold;
+font-weight: bold;
 }
 .sr-only {
   position: absolute;
@@ -553,6 +552,30 @@ span {
   .circular-image {
     margin-left: 900px;
   }
+}
+/* ScrollToTopButton.css */
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+ border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.scroll-to-top-button.visible {
+  display: inline-block;
+}
+/* .scroll-to-top-button :hover{
+  box-shadow:  0px 4px 10px rgba(0, 0, 0, 0.45);
+} */
+.scroll-to-top-button svg  {
+  font-size: 20px; 
+  color: black;
+ 
 }
 
 /* ecran apartir de 1024px type tablettes */
