@@ -8,7 +8,7 @@ const Formulaire = () => {
   const [state, handleSubmit] = useForm("mqkvrpyp");
 
   if (state.succeeded) {
-    return <p style={{color:'black', fontWeight:'900', fontFamily:'Poppins', fontSize:'32px'}}>Merci pour votre message!</p>;
+    return <p style={{color:'black', fontWeight:'900', fontFamily:'Poppins', fontSize:'32px', textShadow:'0 0 5px #4fc3f7, 0 0 10px #65c8f7, 0 0 15px #4fc3f7'}}>Merci pour votre message!</p>;
   }
 
   return (
