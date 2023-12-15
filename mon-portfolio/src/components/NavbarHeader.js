@@ -23,7 +23,7 @@ const NavbarHeader = () => {
           }}
           to="/"
         >
-          Acceuil
+          Accueil
         </Link>
       </div>
       <div>
