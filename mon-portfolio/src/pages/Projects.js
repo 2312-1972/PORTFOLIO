@@ -66,7 +66,7 @@ function Project() {
                   rel="noopener noreferrer"
                   >
                   <img
-                  src="/images/link.png"
+                  src="/images/worldwide.webp"
                   alt="Link website"
                   className="website-link"
                 />
