@@ -578,26 +578,56 @@ span {
   color: black;
  
 }
+/* ecran a partir de 1530px type small laptop */
+@media screen and (max-width: 1530px){
+ .circular-image {
+  width: 500px;
+  height: 500px;
+  margin-left: 700px;
+} 
+}
 
-/* ecran apartir de 1024px type tablettes */
+/* ecran a partir de 1320px type small laptop */
+@media screen and (max-width: 1320px){
+  .circular-image {
+   width: 500px;
+   height: 500px;
+   margin-left: 600px;
+ } 
+ }
+/* ecran a partir de 1220px type small laptop */
+@media screen and (max-width: 1220px){
+  .circular-image {
+   width: 400px;
+   height: 400px;
+   margin-left: 450px;
+ } 
+ .intro-resp {
+  width: auto;
+}
+.intro-contact {
+  width: auto;
+}
+ }
+/* ecran a partir de 1024px type tablettes */
 @media screen and (max-width: 1024px) {
   nav {
     width: auto;
     gap: 100px;
   }
-  .intro-resp {
+  /* .intro-resp {
     width: auto;
-  }
+  } */
   .circular-image {
     width: 400px;
     height: 400px;
     margin-left: 350px;
   }
-  .intro-contact {
+  /* .intro-contact {
     width: auto;
-  }
+  } */
 }
-/* ecran apartir de 849px type petites tablettes */
+/* ecran a partir de 849px type petites tablettes */
 @media screen and (max-width: 849px) {
   .menu {
     display: none;
@@ -628,7 +658,7 @@ span {
   .letter-space {
     letter-spacing: 1px;
   }
-  /* ecran apartir de 686px type smartphone + smartphone large screen */
+  /* ecran a partir de 686px type smartphone + smartphone large screen */
   @media screen and (max-width: 686px) {
     nav {
       width: auto;
