@@ -390,6 +390,7 @@ span {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .project-card {
   perspective: 1000px;
   width: 300px;
@@ -399,7 +400,7 @@ span {
   border-radius: 10px;
   cursor: pointer;
   transform-style: preserve-3d;
-  transition: transform 0.6s;
+  transition: transform 0.4s ease-in-out;
 }
 
 .project-card:hover {
