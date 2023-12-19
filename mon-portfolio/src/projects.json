@@ -1,17 +1,31 @@
 {
   "projects": [
-    { "id": "PJ00" ,
+    { "id": "PJ0" ,
       "logo":"/images/logos/booki-logo.webp",
       "title": "Booki",
       "image": "/images/front/booki.webp",
       "description": "Site Internet  permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.  Respect des maquettes figma fournies par l'UX designer, mon rôle était d'intégrer  l'interface Front end du site en HTML et CSS. ",
       "technologies": [
-        { "name": "HTML5", "icon": "/images/html.webp", "progress": 80 },
-        { "name": "CSS3", "icon": "/images/css.webp", "progress": 70 },
-        { "name": "git", "icon": "/images/git.webp", "progress": 70 }
+        { "name": "HTML5", "icon": "/images/html.webp"},
+        { "name": "CSS3", "icon": "/images/css.webp" },
+        { "name": "git", "icon": "/images/git.webp" }
       ],
       "github":"https://github.com/2312-1972/booki-starter-code-master",
       "site":"https://booky-34.netlify.app/",
+      "future": false
+    },
+    { "id": "PJ00" ,
+    "logo":"/images/logos/logo-print-it.webp",
+      "title": "Print it",
+      "image": "/images/front/colors.webp",
+      "description": "Développement d'un site d'une imprimerie en ligne en HTML, CSS et avec Javascript pour la partie dynamique",
+      "technologies": [
+        { "name": "HTML5", "icon": "/images/html.webp"},
+        { "name": "CSS3", "icon": "/images/css.webp" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
+      ],
+      "github":"https://github.com/2312-1972/Print-it",
+      "site":"https://print-it-34.netlify.app",
       "future": false
     },
     { "id": "PJ01",
