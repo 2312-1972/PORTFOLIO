@@ -472,12 +472,14 @@ span {
 
 .card-technologies li {
   margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 .tech-icon {
   padding-top: 50px;
-  width: 60px;
-  height: 60px;
+  max-width: 90%; 
+  
+  height: auto;
 }
 .in-progress-text {
   position: absolute;
