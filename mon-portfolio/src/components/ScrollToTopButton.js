@@ -1,5 +1,3 @@
-// ScrollToTopButton.js
-
 import React, { useState, useEffect } from 'react';
 import { FaArrowUp } from 'react-icons/fa';
 import '../style.css';
@@ -8,7 +6,7 @@ const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const handleScroll = () => {
-    setIsVisible(window.scrollY > 100); // Ajustez la valeur selon votre préférence
+    setIsVisible(window.scrollY > 100); 
   };
 
   const scrollToTop = () => {

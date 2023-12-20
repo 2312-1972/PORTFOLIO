@@ -1,9 +1,6 @@
 import React from "react";
 import "../animations/formulaire-contact.css";
 import { useForm, ValidationError } from "@formspree/react";
-
-// ... (importations existantes)
-
 const Formulaire = () => {
   const [state, handleSubmit] = useForm("mqkvrpyp");
 

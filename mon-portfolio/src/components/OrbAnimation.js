@@ -1,4 +1,3 @@
-// OrbAnimation.js
 import React from 'react';
 import '../animations/animation-sphere.css';
 
