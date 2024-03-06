@@ -140,7 +140,7 @@
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
       ],
       "github":"",
-      "site":"",
+      "site":"https://2312-1972.github.io/site-internet-aux-ciseaux-de-Shirley",
       "future": true
     },
     { "id": "PJ09" ,
@@ -155,7 +155,7 @@
         { "name": "Redux", "icon": "/images/redux.webp" }
       ],
       "github":"",
-      "site":"",
+      "site":"https://major-drone.vercel.app",
       "future": true
     },
     { "id": "PJ10" ,
