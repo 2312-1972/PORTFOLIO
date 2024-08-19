@@ -148,7 +148,7 @@
     "logo":"/images/logos/drone.webp",
       "title": "Abejorro 11 DronePilot",
       "image": "/images/front/abejorro.webp",
-      "description": "Démarrage du projet du Site commercial d'un pilote de drône mi octobre 2024 ",
+      "description": "Déploiement du projet du Site commercial d'un pilote de drône mi octobre 2024 ",
       "technologies": [
         { "name": "React", "icon": "/images/react.webp" },
         { "name": "Sass", "icon": "/images/sass.webp" },
