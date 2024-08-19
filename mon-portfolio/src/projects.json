@@ -133,8 +133,9 @@
     "logo":"/images/logos/shirley2.webp",
       "title": "Aux ciseaux de shirley",
       "image": "/images/front/shirley.webp",
-      "description": "Site vitrine et single page d'une coiffeuse mixte a domicile, en cours de création ",
+      "description": "Site vitrine et single page d'une coiffeuse mixte a domicile, déploiement  septembre 2024 ",
       "technologies": [
+        {"name":"CSS3", "icon": "/images/css.webp" },
         { "name": "React", "icon": "/images/react.webp" },
         { "name": "Sass", "icon": "/images/sass.webp" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
@@ -147,7 +148,7 @@
     "logo":"/images/logos/drone.webp",
       "title": "Abejorro 11 DronePilot",
       "image": "/images/front/abejorro.webp",
-      "description": "Démarrage du projet du Site commercial d'un pilote de drône mi janvier 2024 ",
+      "description": "Démarrage du projet du Site commercial d'un pilote de drône mi octobre 2024 ",
       "technologies": [
         { "name": "React", "icon": "/images/react.webp" },
         { "name": "Sass", "icon": "/images/sass.webp" },
@@ -162,7 +163,7 @@
     "logo":"/images/logos/vivi.webp",
       "title": "Vivi Parrot Lifestyle",
       "image": "/images/front/vivi.webp",
-      "description": "Démarrage du projet en janvier 2024 d'un site dédié au 'Bien être et vivre sainement' ",
+      "description": "Démarrage du projet en novembre 2024 d'un site dédié au 'Bien être et vivre sainement' ",
       "technologies": [
         { "name": "React", "icon": "/images/react.webp" },
         { "name": "Sass", "icon": "/images/sass.webp" },
