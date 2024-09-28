@@ -190,7 +190,8 @@
       { "name": "Redux", "icon": "/images/redux.webp"},
       { "name": "MongoDB", "icon": "/images/mongodb.webp"},
       { "name": "Python", "icon": "/images/python.webp"},
-      { "name": "Linux", "icon": "/images/linux.webp"}
+      { "name": "Linux", "icon": "/images/linux.webp"},
+      { "name": "Angular", "icon": "/images/ave7p8tcc.webp"}
     ],
     "Transverse": [
       { "name": "SEO", "icon": "/images/SEO.webp" },
