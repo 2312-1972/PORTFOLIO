@@ -172,7 +172,7 @@
        ],
       "github":"https://github.com/2312-1972/Nutrivie.git",
       "site":"https://nutrivie.netlify.app/",
-      "future": true
+      "future": false
     },
     { "id": "PJ11" ,
     "logo":"/images/logos/logo.png",
