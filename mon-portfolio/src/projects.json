@@ -147,7 +147,7 @@
     { "id": "PJ09" ,
     "logo":"/images/logos/drone.webp",
       "title": "Abejorro 11 DronePilot",
-      "image": "/images/front/abejorro.webp",
+      "image": "/images/front/major.png",
       "description": "Déploiement du projet du Site commercial d'un pilote de drône mi octobre 2024 ",
       "technologies": [
         { "name": "React", "icon": "/images/react.webp" },
@@ -157,7 +157,7 @@
       ],
       "github":"",
       "site":"https://major-drone.vercel.app",
-      "future": true
+      "future": false
     },
     { "id": "PJ10" ,
     "logo":"/images/logos/vivi.webp",
@@ -188,6 +188,38 @@
        ],
       "github":"https://github.com/2312-1972/Analyse-apple",
       "site":"https://analytic-pomme-des-usa.netlify.app/",
+      "future": false
+    },
+    { "id": "PJ12" ,
+    "logo":"/images/logos/logo.png",
+      "title": "Analystic Apple 2024",
+      "image": "/images/front/cac40.webp",
+      "description": "Outil pour suivre et analyser les marchés financiers et fournir des recommandations d'investissement pour le CAC40",
+      "technologies": [
+        { "name": "React", "icon": "/images/react.webp" },
+        { "name": "Css3", "icon": "/images/css.webp" },
+        { "name": "API", "icon": "/images/API.webp" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
+        { "name": "Node", "icon": "/images/node.webp" }
+       ],
+      "github":"https://github.com/2312-1972/outils-analyse-strategie-trading.git",
+      "site":"https://2312-1972.github.io/outils-analyse-strategie-trading/",
+      "future": false
+    },
+    { "id": "PJ13" ,
+    "logo":"/images/logos/logo.png",
+      "title": "Analystic Apple 2024",
+      "image": "/images/front/xrp.jpg",
+      "description": "Analyse des Marchés Financiers et Recommandations pour Apple Octobre - Novembre 2024 ",
+      "technologies": [
+        { "name": "React", "icon": "/images/react.webp" },
+        { "name": "Css3", "icon": "/images/css.webp" },
+        { "name": "API", "icon": "/images/API.webp" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
+        { "name": "Node", "icon": "/images/node.webp" }
+       ],
+      "github":"https://github.com/2312-1972/cryptos-top-10-analysis.git",
+      "site":"https://2312-1972.github.io/cryptos-top-10-analysis/",
       "future": false
     }
 
