@@ -173,6 +173,22 @@
       "github":"",
       "site":"",
       "future": true
+    },
+    { "id": "PJ11" ,
+    "logo":"/images/logos/logo.png",
+      "title": "Analystic Apple 2024",
+      "image": "/images/front/front apple analytics.png",
+      "description": "Analyse des Marchés Financiers et Recommandations pour Apple Octobre - Novembre 2024 ",
+      "technologies": [
+        { "name": "React", "icon": "/images/react.webp" },
+        { "name": "Css3", "icon": "/images/css.webp" },
+        { "name": "API", "icon": "/images/API.webp" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
+        { "name": "Node", "icon": "/images/node.webp" }
+       ],
+      "github":"https://github.com/2312-1972/Analyse-apple",
+      "site":"https://analytic-pomme-des-usa.netlify.app/",
+      "future": false
     }
 
   ],
