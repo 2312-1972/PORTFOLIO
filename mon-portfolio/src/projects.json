@@ -163,15 +163,15 @@
     "logo":"/images/logos/vivi.webp",
       "title": "Vivi Parrot Lifestyle",
       "image": "/images/front/vivi.webp",
-      "description": "Démarrage du projet en novembre 2024 d'un site dédié au 'Bien être et vivre sainement' ",
+      "description": "Projet en finition et en attente du diplôme pour exercer!!' ",
       "technologies": [
         { "name": "React", "icon": "/images/react.webp" },
         { "name": "Sass", "icon": "/images/sass.webp" },
         { "name": "Redux", "icon": "/images/redux.webp" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
        ],
-      "github":"",
-      "site":"",
+      "github":"https://github.com/2312-1972/Nutrivie.git",
+      "site":"https://nutrivie.netlify.app/",
       "future": true
     },
     { "id": "PJ11" ,
