@@ -221,6 +221,22 @@
       "github":"https://github.com/2312-1972/cryptos-top-10-analysis.git",
       "site":"https://2312-1972.github.io/cryptos-top-10-analysis/",
       "future": false
+    },
+    { "id": "PJ07" ,
+    "logo":"/images/logos/logo.png",
+        "title": "CarbonShop",
+        "image": "/images/front/DeFi-Fees-Surge-58-as-Blockchain-Finance-Grows-Stronger.png",
+        "description": " Site marchand de produits dédiés au monde de la Cryptomonnaie ",
+        "technologies": [ 
+       { "name": "Redux", "icon": "/images/redux.webp" },
+       { "name": "React", "icon": "/images/react.webp" },
+       { "name": "Node", "icon": "/images/node.webp" },
+       { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
+       { "name": "Sass", "icon": "/images/sass.webp" }
+       ],
+       "github":"/deploiement.html",
+      "site":"/deploiement.html",
+       "future": true
     }
 
   ],
@@ -236,21 +252,22 @@
       { "name": "React", "icon": "/images/react.webp" },
       { "name": "Jest", "icon": "/images/jest.webp" },
       { "name": "Redux", "icon": "/images/redux.webp"},
-      { "name": "MongoDB", "icon": "/images/mongodb.webp"},
+      { "name": "MongoDB", "icon": "/images/MongoDB.png"},
       { "name": "Python", "icon": "/images/python.webp"},
       { "name": "Linux", "icon": "/images/linux.webp"},
       { "name": "Angular", "icon": "/images/ave7p8tcc.webp"}
     ],
     "Transverse": [
       { "name": "SEO", "icon": "/images/SEO.webp" },
-      { "name": "Devtools", "icon": "/images/devtools.png" },
+      { "name": "Devtools", "icon": "/images/Devtools.jpg" },
       { "name": "Lighthouse", "icon": "/images/lighthouse.webp" },
       { "name": "Trello", "icon": "/images/trello.webp" },
       { "name": "Agile", "icon": "/images/agile.avif" },
       { "name": "Pearltress", "icon": "/images/pearltress.webp" },
       { "name": "API  Restful", "icon": "/images/API.webp" },
       { "name": "Gtmetrix", "icon": "/images/Gtmetrix.webp" },
-      { "name": "Canva", "icon": "/images/canva-logo.webp" }
+      { "name": "Canva", "icon": "/images/canva-logo.webp" },
+      { "name": "Defi", "icon": "/images/front/Defi.jpg" }
     ]
   }
 }
