@@ -3,46 +3,70 @@ import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaEnvelope, FaDiscord } from 'react-icons/fa';
 import '../style.css';
 
+// 1. On crée un tableau avec les informations des liens
+const socialLinks = [
+  { href: 'https://github.com/2312-1972', label: 'GitHub', Icon: FaGithub, isExternal: true },
+  { href: 'https://www.linkedin.com/in/frederic-t-283ab24b/', label: 'LinkedIn', Icon: FaLinkedin, isExternal: true },
+  { href: 'https://discord.gg/2Bb6kV8K', label: 'Discord', Icon: FaDiscord, isExternal: true },
+  { href: '/contact', label: 'Contact', Icon: FaEnvelope, isExternal: false }, // Lien interne
+];
+
 const Footer = () => {
   const [visitCount, setVisitCount] = useState(0);
 
   useEffect(() => {
-    // Récupérer le compteur depuis le localStorage
     const visits = localStorage.getItem('visitCount') || 0;
     const updatedVisits = parseInt(visits) + 1;
-
-    // Mettre à jour le compteur dans le localStorage
     localStorage.setItem('visitCount', updatedVisits);
-
-    // Mettre à jour l'état
     setVisitCount(updatedVisits);
   }, []);
+
+  const linkStyle = { fontSize: '26px' };
 
   return (
     <footer id='CV' className='back-footer'>
       <div className='a'>
-        <Link to={'https://github.com/2312-1972'} aria-label="GitHub" style={{ fontSize: '26px' }}>
-          <span className="sr-only">GitHub</span>
-          <FaGithub />
-        </Link>
-        <Link to={'https://www.linkedin.com/in/frederic-t-283ab24b/'} aria-label="LinkedIn" style={{ fontSize: '26px' }}>
-          <span className="sr-only">LinkedIn</span>
-          <FaLinkedin />
-        </Link>
-        <Link to={'https://discord.gg/2Bb6kV8K'} aria-label="Discord" style={{ fontSize: '26px' }}>
-          <span className="sr-only">Discord</span>
-          <FaDiscord />
-        </Link>
-        <Link to={'./contact'} aria-label="Contact" style={{ fontSize: '26px' }}>
-          <span className="sr-only">Contact</span>
-          <FaEnvelope />
-        </Link>
+        {/* 2. On utilise .map() pour créer les liens dynamiquement */}
+        {socialLinks.map((link) => {
+          const { href, label, Icon, isExternal } = link;
+          
+          if (isExternal) {
+            // 3. On utilise <a> pour les liens externes
+            return (
+              <a 
+                key={label}
+                href={href} 
+                aria-label={label} 
+                style={linkStyle}
+                className="cursor-target" // <-- Ajout de la classe pour le curseur
+                target="_blank" // Ouvre dans un nouvel onglet
+                rel="noopener noreferrer" // Sécurité pour les liens externes
+              >
+                <span className="sr-only">{label}</span>
+                <Icon />
+              </a>
+            );
+          }
+          
+          // Et <Link> pour les liens internes
+          return (
+            <Link 
+              key={label}
+              to={href} 
+              aria-label={label} 
+              style={linkStyle}
+              className="cursor-target" // <-- Ajout de la classe pour le curseur
+            >
+              <span className="sr-only">{label}</span>
+              <Icon />
+            </Link>
+          );
+        })}
       </div>
       <h4 style={{ fontSize: '14px', color: 'white', width: 'auto', fontFamily: 'oxygen', fontWeight: '300' }}>
-        ©2023 Frédéric TOPPAN, Tous droits réservés
+        ©2025 Frédéric TOPPAN, Tous droits réservés
       </h4>
 
-      {/* Afficher le compteur de visites */}
       <div className="visit-counter">
         <p>Visitors : {visitCount}</p>
       </div>

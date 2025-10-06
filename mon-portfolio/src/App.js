@@ -1,5 +1,6 @@
 import React, { lazy, Suspense, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import TargetCursor from './components/TargetCursor/TargetCursor';
 
 const HomePage = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
@@ -9,8 +10,7 @@ const Footer = lazy(() => import('./components/Footer'));
 const NavbarHeader = lazy(() => import('./components/NavbarHeader'));
 const Skill = lazy(() => import('./pages/Skills'));
 const ScrollToTopButton = lazy(() => import ('./components/ScrollToTopButton'));
-// 1. AJOUTEZ L'IMPORTATION DE VOTRE NOUVELLE PAGE ICI
-const DeploymentPage = lazy(() => import('./components/DeploymentPage')); // Assurez-vous que le chemin est correct
+const DeploymentPage = lazy(() => import('./components/DeploymentPage')); 
 
 function App() {
   useEffect(() => {
@@ -21,6 +21,7 @@ function App() {
     <Router>
       <div className='body'>
         <Suspense fallback={<div className='loading-app' ><h2 className='loading-h2' >Loading...</h2></div>}>
+          <TargetCursor />
           <Header />
           <NavbarHeader/>
           <Routes>
