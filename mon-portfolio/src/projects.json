@@ -210,7 +210,7 @@
     "logo":"/images/logos/logo.png",
       "title": "Analystic Apple 2024",
       "image": "/images/front/xrp.jpg",
-      "description": "Analyse des Marchés Financiers et Recommandations pour Apple Octobre - Novembre 2024 ",
+      "description": "Dashboard d'Analyse Cryptomonnaies Exploration du Top 10 (Données Simulées)",
       "technologies": [
         { "name": "React", "icon": "/images/react.webp" },
         { "name": "Css3", "icon": "/images/css.webp" },
