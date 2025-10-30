@@ -222,7 +222,7 @@
       "site":"https://2312-1972.github.io/cryptos-top-10-analysis/",
       "future": false
     },
-    { "id": "PJ07" ,
+    { "id": "PJ14" ,
     "logo":"/images/logos/logo.png",
         "title": "CarbonShop",
         "image": "/images/front/DeFi-Fees-Surge-58-as-Blockchain-Finance-Grows-Stronger.png",
@@ -232,7 +232,9 @@
        { "name": "React", "icon": "/images/react.webp" },
        { "name": "Node", "icon": "/images/node.webp" },
        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
-       { "name": "Sass", "icon": "/images/sass.webp" }
+       { "name": "express-js", "icon": "/images/express-js.png" },
+       { "name": "Node", "icon": "/images/node.webp" },
+       { "name": "Mongodb", "icon": "/images/mongodb.webp" }
        ],
        "github":"/deploiement.html",
       "site":"/deploiement.html",
