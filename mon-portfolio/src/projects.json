@@ -233,8 +233,9 @@
        { "name": "Node", "icon": "/images/node.webp" },
        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
        { "name": "express-js", "icon": "/images/express-js.png" },
-       { "name": "Node", "icon": "/images/node.webp" },
-       { "name": "Mongodb", "icon": "/images/mongodb.webp" }
+       { "name": "Sass", "icon": "/images/sass.webp" },
+       { "name": "Mongodb", "icon": "/images/mongodb.webp" },
+       { "name": "Stripe", "icon": "/images/Stripe-Emblem.png" }
        ],
        "github":"/deploiement.html",
       "site":"/deploiement.html",
