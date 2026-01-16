@@ -27,7 +27,7 @@ const Introduction = () => {
             className="h-intro"
             style={{ border: "none", fontWeight: "bold", fontSize: "22px" }}
           >
-          Frédéric TOPPAN,
+          Frédéric François TOPPAN,
           </span>
           enthousiaste du code et passionné par le monde numérique, je suis un
           développeur web dédié à créer des expériences en ligne
