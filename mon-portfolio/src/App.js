@@ -11,6 +11,7 @@ const NavbarHeader = lazy(() => import('./components/NavbarHeader'));
 const Skill = lazy(() => import('./pages/Skills'));
 const ScrollToTopButton = lazy(() => import ('./components/ScrollToTopButton'));
 const DeploymentPage = lazy(() => import('./components/DeploymentPage')); 
+const PartnerPage = lazy(() => import('./pages/PartnerPage'));
 
 function App() {
   useEffect(() => {
@@ -29,7 +30,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/competences" element={<Skill />} />
             <Route path="/contact" element={<Contact />} />
-            
+            <Route path="/partenaire" element={<PartnerPage />} />
             <Route path="/en-deploiement" element={<DeploymentPage />} />
           </Routes>
           <Footer />
