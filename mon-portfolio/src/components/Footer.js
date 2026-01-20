@@ -31,16 +31,15 @@ const Footer = () => {
           const { href, label, Icon, isExternal } = link;
           
           if (isExternal) {
-            // 3. On utilise <a> pour les liens externes
             return (
               <a 
                 key={label}
                 href={href} 
                 aria-label={label} 
                 style={linkStyle}
-                className="cursor-target" // <-- Ajout de la classe pour le curseur
-                target="_blank" // Ouvre dans un nouvel onglet
-                rel="noopener noreferrer" // Sécurité pour les liens externes
+                className="cursor-target" 
+                target="_blank" 
+                rel="noopener noreferrer" 
               >
                 <span className="sr-only">{label}</span>
                 <Icon />
@@ -48,14 +47,13 @@ const Footer = () => {
             );
           }
           
-          // Et <Link> pour les liens internes
           return (
             <Link 
               key={label}
               to={href} 
               aria-label={label} 
               style={linkStyle}
-              className="cursor-target" // <-- Ajout de la classe pour le curseur
+              className="cursor-target" 
             >
               <span className="sr-only">{label}</span>
               <Icon />
@@ -63,9 +61,29 @@ const Footer = () => {
           );
         })}
       </div>
-      <h4 style={{ fontSize: '14px', color: 'white', width: 'auto', fontFamily: 'oxygen', fontWeight: '300' }}>
+
+      <h4 style={{ fontSize: '14px', color: 'white', width: 'auto', fontFamily: 'oxygen', fontWeight: '300', marginBottom: '15px' }}>
         ©2025 Frédéric TOPPAN, Tous droits réservés
       </h4>
+
+      {/* --- BANNIÈRE PARTENAIRE DANS LE FOOTER --- */}
+      <div style={{ marginBottom: '20px' }}>
+        {/* START ADVERTISER: Northwest Registered Agent LLC from awin.com */}
+        <a 
+          rel="sponsored noopener noreferrer" 
+          href="https://www.awin1.com/cread.php?s=4429014&v=66946&q=573884&r=2736078"
+          target="_blank"
+          className="cursor-target"
+        >
+          <img 
+            src="https://www.awin1.com/cshow.php?s=4429014&v=66946&q=573884&r=2736078" 
+            border="0" 
+            alt="Northwest Registered Agent"
+            style={{ maxWidth: '100%', height: 'auto', borderRadius: '4px' }}
+          />
+        </a>
+        {/* END ADVERTISER: Northwest Registered Agent LLC from awin.com */}
+      </div>
 
       <div className="visit-counter">
         <p>Visitors : {visitCount}</p>
