@@ -225,6 +225,22 @@
     { "id": "PJ14" ,
     "logo":"/images/logos/logo.png",
         "title": "CarbonShop",
+        "image": "/images/front/jardindethau.webp",
+        "description": " Site marchand de produits dédiés au monde de la Cryptomonnaie ",
+        "technologies": [ 
+       { "name": "Vite", "icon": "/images/Vite.png" },
+       { "name": "React", "icon": "/images/react.webp" },
+       { "name": "Css3", "icon": "/images/css.webp" },
+       { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
+       
+       ],
+       "github":"https://github.com/2312-1972/jardin-de-thau.git",
+      "site":"https://jardindethau.fr/",
+       "future": false
+    },
+    { "id": "PJ15" ,
+    "logo":"/images/logos/logo.png",
+        "title": "CarbonShop",
         "image": "/images/front/DeFi-Fees-Surge-58-as-Blockchain-Finance-Grows-Stronger.png",
         "description": " Site marchand de produits dédiés au monde de la Cryptomonnaie ",
         "technologies": [ 
@@ -258,7 +274,7 @@
       { "name": "MongoDB", "icon": "/images/MongoDB.png"},
       { "name": "Python", "icon": "/images/python.webp"},
       { "name": "Linux", "icon": "/images/linux.webp"},
-      { "name": "Angular", "icon": "/images/ave7p8tcc.webp"}
+      { "name": "Vite", "icon": "/images/Vite.png"}
     ],
     "Transverse": [
       { "name": "SEO", "icon": "/images/SEO.webp" },
@@ -270,7 +286,10 @@
       { "name": "API  Restful", "icon": "/images/API.webp" },
       { "name": "Gtmetrix", "icon": "/images/Gtmetrix.webp" },
       { "name": "Canva", "icon": "/images/canva-logo.webp" },
-      { "name": "Defi", "icon": "/images/front/Defi.jpg" }
+      { "name": "Defi", "icon": "/images/front/Defi.jpg" },
+      { "name": "Blockchain", "icon": "/images/Blockchain.png" },
+      { "name": "Dns", "icon": "/images/Dns.png" },
+      { "name": "XRP Ledger", "icon": "/images/XRP Ledger.png" }
     ]
   }
 }
