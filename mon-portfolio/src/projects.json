@@ -224,9 +224,9 @@
     },
     { "id": "PJ14" ,
     "logo":"/images/logos/logo.png",
-        "title": "CarbonShop",
+        "title": "jardindethau",
         "image": "/images/front/jardindethau.webp",
-        "description": " Site marchand de produits dédiés au monde de la Cryptomonnaie ",
+        "description": "Jardinier,paysagiste situé à Lontbazin (34) Bassin de Thau ",
         "technologies": [ 
        { "name": "Vite", "icon": "/images/Vite.png" },
        { "name": "React", "icon": "/images/react.webp" },
