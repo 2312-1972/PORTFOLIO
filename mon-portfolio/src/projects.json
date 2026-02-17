@@ -126,7 +126,7 @@
       { "name": "Mongodb", "icon": "/images/mongodb.webp" }
       ],
       "github":"https://github.com/2312-1972/ArgentBank-website",
-      "site":"https://sophie-bluel-af3w.vercel.app/",
+      "site":"https://argent-bank-website-olive.vercel.app/",
       "future": false
     },
     { "id": "PJ08" ,

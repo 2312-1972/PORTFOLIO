@@ -1,7 +1,7 @@
 // src/components/Project.js
 
 import React from "react";
-import { Link } from "react-router-dom"; // <-- MODIFICATION 1 : Importation de Link
+import { Link } from "react-router-dom"; 
 import "../style.css";
 import projectsData from "../projects.json";
 
@@ -64,7 +64,7 @@ function Project() {
                     />
                   </a>
                   
-                  {/* --- MODIFICATION 2 : Logique conditionnelle pour le lien du site --- */}
+                  {/* ---  Logique conditionnelle pour le lien du site --- */}
                   {project.future === true ? (
                     // Si le projet est "future", on utilise Link vers la nouvelle page
                     <Link to="/en-deploiement">
