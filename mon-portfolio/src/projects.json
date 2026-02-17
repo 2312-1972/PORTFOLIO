@@ -241,7 +241,7 @@
     { "id": "PJ15" ,
     "logo":"/images/logos/logo.png",
         "title": "CarbonShop",
-        "image": "/images/front/DeFi-Fees-Surge-58-as-Blockchain-Finance-Grows-Stronger.png",
+        "image": "/images/front/CARBON.png",
         "description": " Site marchand de produits dédiés au monde de la Cryptomonnaie ",
         "technologies": [ 
        { "name": "Redux", "icon": "/images/redux.webp" },
