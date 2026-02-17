@@ -226,7 +226,7 @@
     "logo":"/images/logos/logo.png",
         "title": "jardindethau",
         "image": "/images/front/jardindethau.webp",
-        "description": "Jardinier,paysagiste situé à Lontbazin (34) Bassin de Thau ",
+        "description": "Jardinier, Paysagiste situé à Montbazin (34) Bassin de Thau ",
         "technologies": [ 
        { "name": "Vite", "icon": "/images/Vite.png" },
        { "name": "React", "icon": "/images/react.webp" },
