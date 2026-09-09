@@ -1,92 +1,99 @@
 {
   "projects": [
-    { "id": "PJ0" ,
-      "logo":"/images/logos/booki-logo.webp",
+    {
+      "id": "PJ0",
+      "logo": "/images/logos/booki-logo.webp",
       "title": "Booki",
       "image": "/images/front/booki.webp",
       "description": "Site Internet  permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.  Respect des maquettes figma fournies par l'UX designer, mon rôle était d'intégrer  l'interface Front end du site en HTML et CSS. ",
       "technologies": [
-        { "name": "HTML5", "icon": "/images/html.webp"},
+        { "name": "HTML5", "icon": "/images/html.webp" },
         { "name": "CSS3", "icon": "/images/css.webp" },
         { "name": "git", "icon": "/images/git.webp" }
       ],
-      "github":"https://github.com/2312-1972/booki-starter-code-master",
-      "site":"https://booky-34.netlify.app/",
+      "github": "https://github.com/2312-1972/booki-starter-code-master",
+      "site": "https://booky-34.netlify.app/",
       "future": false
     },
-    { "id": "PJ00" ,
-    "logo":"/images/logos/logo-print-it.webp",
+    {
+      "id": "PJ00",
+      "logo": "/images/logos/logo-print-it.webp",
       "title": "Print it",
       "image": "/images/front/colors.webp",
       "description": "Développement d'un site d'une imprimerie en ligne en HTML, CSS et avec Javascript pour la partie dynamique",
       "technologies": [
-        { "name": "HTML5", "icon": "/images/html.webp"},
+        { "name": "HTML5", "icon": "/images/html.webp" },
         { "name": "CSS3", "icon": "/images/css.webp" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
       ],
-      "github":"https://github.com/2312-1972/Print-it",
-      "site":"https://print-it-34.netlify.app",
+      "github": "https://github.com/2312-1972/Print-it",
+      "site": "https://print-it-34.netlify.app",
       "future": false
     },
-    { "id": "PJ01",
-      "logo":"/images/logos/ohmyfood-logo.webp",
+    {
+      "id": "PJ01",
+      "logo": "/images/logos/ohmyfood-logo.webp",
       "title": "Ohmyfood ",
       "image": "/images/front/ohmyfood.webp",
       "description": "  Ohmyfood est un site implémenté en “mobile first” qui propose les menus de restaurants gastronomiques en pré order. Ux designer  a mis à ma disposition des maquettes via Figma . La mission était de  créer une application responsive qui s'adapterait aux différentes tailles d'écran et de développer des animations avec des Keyframes rendant l'expérience utilisateurs plus attrayant.",
       "technologies": [
-      { "name": "Figma", "icon": "/images/figma.webp" },
-      { "name": "HTML5", "icon": "/images/html.webp" },
-      { "name": "CSS3", "icon": "/images/css.webp" },
-      { "name": "Sass", "icon": "/images/sass.webp" }
-    ],
-      "github":"https://github.com/2312-1972/ohmyfood",
-      "site":"https://ohmyfood-34.netlify.app",
+        { "name": "Figma", "icon": "/images/figma.webp" },
+        { "name": "HTML5", "icon": "/images/html.webp" },
+        { "name": "CSS3", "icon": "/images/css.webp" },
+        { "name": "Sass", "icon": "/images/sass.webp" }
+      ],
+      "github": "https://github.com/2312-1972/ohmyfood",
+      "site": "https://ohmyfood-34.netlify.app",
       "future": false
     },
-    { "id": "PJ02" ,
-    "logo":"/images/logos/sophiebluel.logo.webp",
+    {
+      "id": "PJ02",
+      "logo": "/images/logos/sophiebluel.logo.webp",
       "title": "Sophie BLUEL ",
       "image": " /images/front/bar-lullaby-paris.webp",
       "description": "Conception du site portfolio  de l'architecte d'intérieur Sophie Bluel, affichage dynamique en Javascript sur la page d'accueil des différentes réalisations depuis une API, possibilité de  filtrer par catégories, assurant une navigation utilisateurs fluides .Création  d'une logique de connexion sécurisée de l'architecte (log-in) en utilisant le CRUD, afin d'ajouter et de supprimer  des projets toujours dynamiquement .",
       "technologies": [
-      { "name": "API", "icon": "/images/API.webp" },
-      { "name": "HTML5", "icon": "/images/html.webp" },
-      { "name": "CSS3", "icon": "/images/css.webp" },
-      { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
-    ],
-      "github":"https://github.com/2312-1972/Sophie-Bluel",
-      "site":"https://sophie-bluel-af3w.vercel.app/",
+        { "name": "API", "icon": "/images/API.webp" },
+        { "name": "HTML5", "icon": "/images/html.webp" },
+        { "name": "CSS3", "icon": "/images/css.webp" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
+      ],
+      "github": "https://github.com/2312-1972/Sophie-Bluel",
+      "site": "https://sophie-bluel-af3w.vercel.app/",
       "future": false
     },
-    { "id": "PJ03" ,
-    "logo":"/images/logos/qwenta.webp",
+    {
+      "id": "PJ03",
+      "logo": "/images/logos/qwenta.webp",
       "title": "Qwenta ",
       "image": " /images/front/qwenta.webp",
       "description": "Gestion de projet 'Agile' pour la diffussion de menus de restaurant en ligne  avec la mise en place d'une veille technique et l'établissement du Kanban pour une équipe de 4 personnes sur trello.",
       "technologies": [
         { "name": "Trello", "icon": "/images/trello.webp" },
-        {"name": "Pearltress", "icon": "/images/pearltress.webp" },
-      { "name": "Agile", "icon": "/images/agile.avif" }
-     ],
-      "github":"https://trello.com/b/SchqRbhA/menu-maker-by-qwenta",
-      "site":"https://trello.com/b/SchqRbhA/menu-maker-by-qwenta",
+        { "name": "Pearltress", "icon": "/images/pearltress.webp" },
+        { "name": "Agile", "icon": "/images/agile.avif" }
+      ],
+      "github": "https://trello.com/b/SchqRbhA/menu-maker-by-qwenta",
+      "site": "https://trello.com/b/SchqRbhA/menu-maker-by-qwenta",
       "future": false
     },
-    { "id": "PJ04" ,
-    "logo":"/images/logos/kasa-logo.webp",
+    {
+      "id": "PJ04",
+      "logo": "/images/logos/kasa-logo.webp",
       "title": "Kasa",
       "image": "/images/front/enzo.webp",
       "description": "Site de location d’appartements entre particuliers, établissement d'une full stack avec Javascript, NodeJS et react côté front-end, mise en place du routage avec React-router  et du Green code de par notamment des composants réutilisables.",
       "technologies": [
-       { "name": "Sass", "icon": "/images/sass.webp" },
+        { "name": "Sass", "icon": "/images/sass.webp" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
       ],
-      "github":"https://github.com/2312-1972/kasa",
-      "site":"https://kasa-34.netlify.app",
+      "github": "https://github.com/2312-1972/kasa",
+      "site": "https://kasa-34.netlify.app",
       "future": false
     },
-    { "id": "PJ05" ,
-    "logo":"/images/logos/ninacarducci.webp",
+    {
+      "id": "PJ05",
+      "logo": "/images/logos/ninacarducci.webp",
       "title": "Nina CARDUCCI",
       "image": "/images/front/nina.webp",
       "description": "Nina Carduccci  photographe Bordelaise, Optimisation du  référencement de son site après audit Lighthouse soit la performance, l'accessibilité, les bonnes pratiques et enfin le SEO. Revue de l'ensemble du  code HTML, CSS, Javascript avec minification des fichiers volumineux.  utilisation de balises meta de Schéma.org et google Rich Snippet pour un référencement optimum.",
@@ -95,12 +102,13 @@
         { "name": "Lighthouse", "icon": "/images/lighthouse.webp" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
       ],
-      "github":"https://github.com/2312-1972/Nina-CARDUCCI",
-      "site":"https://nina-carducci-34.netlify.app",
-       "future": false
+      "github": "https://github.com/2312-1972/Nina-CARDUCCI",
+      "site": "https://nina-carducci-34.netlify.app",
+      "future": false
     },
-    { "id": "PJ06" ,
-    "logo":"/images/logos/77events.webp",
+    {
+      "id": "PJ06",
+      "logo": "/images/logos/77events.webp",
       "title": "77 Events",
       "image": "/images/front/724events2.webp",
       "description": "Il s’agit d’un site one-page d'une agence d'événementiel dont le nouveau design n'était pas opérationnel, Débuggage et phase de test avec  Jest et react/testing , mise en  place d'un cahier de recette suive de tests unitaires, de développements et fonctionnels",
@@ -110,42 +118,45 @@
         { "name": "Jest", "icon": "/images/jest.webp" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
       ],
-      "github":"https://github.com/2312-1972/77events-Debuggez-une-application-React.JS",
-      "site":"https://77events-34.netlify.app",
+      "github": "https://github.com/2312-1972/77events-Debuggez-une-application-React.JS",
+      "site": "https://77events-34.netlify.app",
       "future": false
     },
-    { "id": "PJ07" ,
-    "logo":"/images/logos/argentbank.webp",
+    {
+      "id": "PJ07",
+      "logo": "/images/logos/argentbank.webp",
       "title": "ArgentBank",
       "image": "/images/front/bank-tree.webp",
       "description": " Néo banque, évoluant vers une appli react, utilisation du back-end avec MongoDB, NodeJs une API, puis Redux pour la propagation de l'état dans l'appli pour authentification des utilisateurs et modification de leur pseudo.Préparation des futures routes API pour récupération et modification des transactions .",
-      "technologies": [ 
-      { "name": "Redux", "icon": "/images/redux.webp" },
-      { "name": "React", "icon": "/images/react.webp" },
-      { "name": "Node", "icon": "/images/node.webp" },
-      { "name": "Mongodb", "icon": "/images/mongodb.webp" }
+      "technologies": [
+        { "name": "Redux", "icon": "/images/redux.webp" },
+        { "name": "React", "icon": "/images/react.webp" },
+        { "name": "Node", "icon": "/images/node.webp" },
+        { "name": "Mongodb", "icon": "/images/mongodb.webp" }
       ],
-      "github":"https://github.com/2312-1972/ArgentBank-website",
-      "site":"https://argent-bank-website-olive.vercel.app/",
+      "github": "https://github.com/2312-1972/ArgentBank-website",
+      "site": "https://argent-bank-website-olive.vercel.app/",
       "future": false
     },
-    { "id": "PJ08" ,
-    "logo":"/images/logos/shirley2.webp",
+    {
+      "id": "PJ08",
+      "logo": "/images/logos/shirley2.webp",
       "title": "Aux ciseaux de shirley",
       "image": "/images/front/shirley.webp",
       "description": "Site vitrine et single page d'une coiffeuse mixte a domicile, déploiement  septembre 2024 ",
       "technologies": [
-        {"name":"CSS3", "icon": "/images/css.webp" },
+        { "name": "CSS3", "icon": "/images/css.webp" },
         { "name": "React", "icon": "/images/react.webp" },
         { "name": "Sass", "icon": "/images/sass.webp" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
       ],
-      "github":"",
-      "site":"https://2312-1972.github.io/site-internet-aux-ciseaux-de-Shirley",
+      "github": "",
+      "site": "https://2312-1972.github.io/site-internet-aux-ciseaux-de-Shirley",
       "future": true
     },
-    { "id": "PJ09" ,
-    "logo":"/images/logos/drone.webp",
+    {
+      "id": "PJ09",
+      "logo": "/images/logos/drone.webp",
       "title": "Abejorro 11 DronePilot",
       "image": "/images/front/major.png",
       "description": "Déploiement du projet du Site commercial d'un pilote de drône mi octobre 2024 ",
@@ -155,12 +166,13 @@
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
         { "name": "Redux", "icon": "/images/redux.webp" }
       ],
-      "github":"",
-      "site":"https://major-drone.vercel.app",
+      "github": "",
+      "site": "https://major-drone.vercel.app",
       "future": false
     },
-    { "id": "PJ10" ,
-    "logo":"/images/logos/vivi.webp",
+    {
+      "id": "PJ10",
+      "logo": "/images/logos/vivi.webp",
       "title": "Vivi Parrot Lifestyle",
       "image": "/images/front/vivi.webp",
       "description": "Projet en finition et en attente du diplôme pour exercer!!' ",
@@ -169,13 +181,14 @@
         { "name": "Sass", "icon": "/images/sass.webp" },
         { "name": "Redux", "icon": "/images/redux.webp" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
-       ],
-      "github":"https://github.com/2312-1972/Nutrivie.git",
-      "site":"https://nutrivie.netlify.app/",
+      ],
+      "github": "https://github.com/2312-1972/Nutrivie.git",
+      "site": "https://nutrivie.netlify.app/",
       "future": false
     },
-    { "id": "PJ11" ,
-    "logo":"/images/logos/logo.png",
+    {
+      "id": "PJ11",
+      "logo": "/images/logos/logo.png",
       "title": "Analystic Apple 2024",
       "image": "/images/front/front apple analytics.png",
       "description": "Analyse des Marchés Financiers et Recommandations pour Apple Octobre - Novembre 2024 ",
@@ -185,13 +198,14 @@
         { "name": "API", "icon": "/images/API.webp" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
         { "name": "Node", "icon": "/images/node.webp" }
-       ],
-      "github":"https://github.com/2312-1972/Analyse-apple",
-      "site":"https://analytic-pomme-des-usa.netlify.app/",
+      ],
+      "github": "https://github.com/2312-1972/Analyse-apple",
+      "site": "https://analytic-pomme-des-usa.netlify.app/",
       "future": false
     },
-    { "id": "PJ12" ,
-    "logo":"/images/logos/logo.png",
+    {
+      "id": "PJ12",
+      "logo": "/images/logos/logo.png",
       "title": "Analystic Apple 2024",
       "image": "/images/front/cac40.webp",
       "description": "Outil pour suivre et analyser les marchés financiers et fournir des recommandations d'investissement pour le CAC40",
@@ -201,13 +215,14 @@
         { "name": "API", "icon": "/images/API.webp" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
         { "name": "Node", "icon": "/images/node.webp" }
-       ],
-      "github":"https://github.com/2312-1972/outils-analyse-strategie-trading.git",
-      "site":"https://2312-1972.github.io/outils-analyse-strategie-trading/",
+      ],
+      "github": "https://github.com/2312-1972/outils-analyse-strategie-trading.git",
+      "site": "https://2312-1972.github.io/outils-analyse-strategie-trading/",
       "future": false
     },
-    { "id": "PJ13" ,
-    "logo":"/images/logos/logo.png",
+    {
+      "id": "PJ13",
+      "logo": "/images/logos/logo.png",
       "title": "Analystic Apple 2024",
       "image": "/images/front/xrp.jpg",
       "description": "Dashboard d'Analyse Cryptomonnaies Exploration du Top 10 (Données Simulées)",
@@ -217,64 +232,81 @@
         { "name": "API", "icon": "/images/API.webp" },
         { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
         { "name": "Node", "icon": "/images/node.webp" }
-       ],
-      "github":"https://github.com/2312-1972/cryptos-top-10-analysis.git",
-      "site":"https://2312-1972.github.io/cryptos-top-10-analysis/",
+      ],
+      "github": "https://github.com/2312-1972/cryptos-top-10-analysis.git",
+      "site": "https://2312-1972.github.io/cryptos-top-10-analysis/",
       "future": false
     },
-    { "id": "PJ14" ,
-    "logo":"/images/logos/logo.png",
-        "title": "jardindethau",
-        "image": "/images/front/jardindethau.webp",
-        "description": "Jardinier, Paysagiste situé à Montbazin (34) Bassin de Thau ",
-        "technologies": [ 
-       { "name": "Vite", "icon": "/images/Vite.png" },
-       { "name": "React", "icon": "/images/react.webp" },
-       { "name": "Css3", "icon": "/images/css.webp" },
-       { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
-       
-       ],
-       "github":"https://github.com/2312-1972/jardin-de-thau.git",
-      "site":"https://jardindethau.fr/",
-       "future": false
+    {
+      "id": "PJ14",
+      "logo": "/images/logos/logo.png",
+      "title": "jardindethau",
+      "image": "/images/front/jardindethau.webp",
+      "description": "Jardinier, Paysagiste situé à Montbazin (34) Bassin de Thau ",
+      "technologies": [
+        { "name": "Vite", "icon": "/images/Vite.png" },
+        { "name": "React", "icon": "/images/react.webp" },
+        { "name": "Css3", "icon": "/images/css.webp" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" }
+      ],
+      "github": "https://github.com/2312-1972/jardin-de-thau.git",
+      "site": "https://jardindethau.fr/",
+      "future": false
     },
-    { "id": "PJ15" ,
-    "logo":"/images/logos/logo.png",
-        "title": "CarbonShop",
-        "image": "/images/front/CARBON.png",
-        "description": " Site marchand de produits dédiés au monde de la Cryptomonnaie ",
-        "technologies": [ 
-       { "name": "Redux", "icon": "/images/redux.webp" },
-       { "name": "React", "icon": "/images/react.webp" },
-       { "name": "Node", "icon": "/images/node.webp" },
-       { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
-       { "name": "express-js", "icon": "/images/express-js.png" },
-       { "name": "Sass", "icon": "/images/sass.webp" },
-       { "name": "Mongodb", "icon": "/images/mongodb.webp" },
-       { "name": "Stripe", "icon": "/images/Stripe-Emblem.png" }
-       ],
-       "github":"/deploiement.html",
-      "site":"/deploiement.html",
-       "future": true
+    {
+      "id": "PJ15",
+      "logo": "/images/logos/logo.png",
+      "title": "llcforfrench",
+      "image": "/images/front/llcforfench.png",
+      "description": "LLC For French est né d’une nécessité simple : trouver des informations claires et concrètes sur la création d’une LLC américaine .",
+      "technologies": [
+        { "name": "React", "icon": "/images/react.webp" },
+        { "name": "Next.js", "icon": "/images/next.jpg" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
+        { "name": "MDX", "icon": "/images/mdx1.png" },
+        { "name": "Typescript", "icon": "/images/typescript.png" }
+      ],
+      "github": "https://github.com/2312-1972/PORTFOLIO",
+      "site": "https://www.llcforfrench.com/",
+      "future": false
+    },
+    {
+      "id": "PJ16",
+      "logo": "/images/logos/logo.png",
+      "title": "CarbonShop",
+      "image": "/images/front/CARBON.png",
+      "description": " Site marchand de produits dédiés au monde de la Cryptomonnaie ",
+      "technologies": [
+        { "name": "Redux", "icon": "/images/redux.webp" },
+        { "name": "React", "icon": "/images/react.webp" },
+        { "name": "Node", "icon": "/images/node.webp" },
+        { "name": "JAVASCRIPT", "icon": "/images/javascript.webp" },
+        { "name": "express-js", "icon": "/images/express-js.png" },
+        { "name": "Sass", "icon": "/images/sass.webp" },
+        { "name": "Mongodb", "icon": "/images/mongodb.webp" },
+        { "name": "Stripe", "icon": "/images/Stripe-Emblem.png" }
+      ],
+      "github": "/deploiement.html",
+      "site": "/deploiement.html",
+      "future": true
     }
-
   ],
   "technology": {
     "Languages": [
-      { "name": "HTML5", "icon": "/images/html.webp"},
+      { "name": "HTML5", "icon": "/images/html.webp" },
       { "name": "CSS3", "icon": "/images/css.webp" },
-      { "name": "Git", "icon": "/images/git.webp"},
+      { "name": "Git", "icon": "/images/git.webp" },
       { "name": "Figma", "icon": "/images/figma.webp" },
-      { "name": "SASS", "icon": "/images/sass.webp"},
-      { "name": "Javascript", "icon": "/images/javascript.webp"},
+      { "name": "SASS", "icon": "/images/sass.webp" },
+      { "name": "Javascript", "icon": "/images/javascript.webp" },
       { "name": "NodeJS", "icon": "/images/node.webp" },
       { "name": "React", "icon": "/images/react.webp" },
       { "name": "Jest", "icon": "/images/jest.webp" },
-      { "name": "Redux", "icon": "/images/redux.webp"},
-      { "name": "MongoDB", "icon": "/images/MongoDB.png"},
-      { "name": "Python", "icon": "/images/python.webp"},
-      { "name": "Linux", "icon": "/images/linux.webp"},
-      { "name": "Vite", "icon": "/images/Vite.png"}
+      { "name": "Redux", "icon": "/images/redux.webp" },
+      { "name": "MongoDB", "icon": "/images/MongoDB.png" },
+      { "name": "Python", "icon": "/images/python.webp" },
+      { "name": "Linux", "icon": "/images/linux.webp" },
+      { "name": "Vite", "icon": "/images/Vite.png" }
     ],
     "Transverse": [
       { "name": "SEO", "icon": "/images/SEO.webp" },
